@@ -1,0 +1,43 @@
+datasets/
+spmf/input/
+spmf/output.txt
+sequencesynopsis/output/
+spmf/output.pkl
+spmf/output/
+coreflow/*.json
+sententree/sentence-tree*
+sententree/sentence-tree+sententree_msp
+coreflow/coreflow_graph.json
+coreflow/coreflow_result.json
+output_minsupport/
+output/
+sequencesynopsis/runEvent.sh
+sequencesynopsis/runText.sh
+# output files from the example
+sequencesynopsis/sequence_synopsis_pattern2sequence*
+sequencesynopsis/sequence_synopsis_outfile_*
+sequencesynopsis/differentRuns/
+sequencesynopsis/+seqsynopsis_msp.json
+sequencesynopsis/sequence_synopsis_outfile.json
+sequencesynopsis/sequence_synopsis_outfile.csv
+visualization/app/public/assets/
+# IDEs and editors
+
+*checkpoints
+*.jar
+*package-lock*
+# input files
+.gitignore.swp
+Sample_Dataset.csv
+process_mining.csv
+Endomodo.lnk/
+
+# System Files
+.DS_Store
+
+#python files
+__pycache__
+*.pyc
+
+# configuration Files
+.pylintrc

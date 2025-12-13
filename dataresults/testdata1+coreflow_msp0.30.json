@@ -1,0 +1,109 @@
+{
+ "event_attribute": "_Start",
+ "Pattern": "",
+ "value": 2,
+ "median_index": 0,
+ "average_index": 0,
+ "sequences": [],
+ "children": [
+  {
+   "event_attribute": "svg_CLICK",
+   "Pattern": "svg_CLICK",
+   "value": 2,
+   "median_index": 0.5,
+   "average_index": 0.5,
+   "sequences": [
+    0,
+    1
+   ],
+   "children": [
+    {
+     "event_attribute": "svg_CLICK",
+     "Pattern": "svg_CLICK*svg_CLICK",
+     "value": 2,
+     "median_index": 2.5,
+     "average_index": 2.5,
+     "sequences": [
+      0,
+      1
+     ],
+     "children": [
+      {
+       "event_attribute": "svg_CLICK",
+       "Pattern": "svg_CLICK*svg_CLICK*svg_CLICK",
+       "value": 2,
+       "median_index": 6.0,
+       "average_index": 6.0,
+       "sequences": [
+        0,
+        1
+       ],
+       "children": [
+        {
+         "event_attribute": "combobox_SELECT",
+         "Pattern": "svg_CLICK*svg_CLICK*svg_CLICK*combobox_SELECT",
+         "value": 2,
+         "median_index": 8.5,
+         "average_index": 8.5,
+         "sequences": [
+          0,
+          1
+         ],
+         "children": [
+          {
+           "event_attribute": "button_CLICK",
+           "Pattern": "svg_CLICK*svg_CLICK*svg_CLICK*combobox_SELECT*button_CLICK",
+           "value": 2,
+           "median_index": 10.5,
+           "average_index": 10.5,
+           "sequences": [
+            0,
+            1
+           ],
+           "children": [
+            {
+             "event_attribute": "span_CLICK",
+             "Pattern": "svg_CLICK*svg_CLICK*svg_CLICK*combobox_SELECT*button_CLICK*span_CLICK",
+             "value": 1,
+             "median_index": 17.5,
+             "average_index": 17.5,
+             "sequences": [
+              1
+             ],
+             "children": [
+              {
+               "event_attribute": "_Exit",
+               "Pattern": "svg_CLICK*svg_CLICK*svg_CLICK*combobox_SELECT*button_CLICK*span_CLICK",
+               "value": 1,
+               "median_index": 17.5,
+               "average_index": 17.5,
+               "sequences": [
+                1
+               ],
+               "children": []
+              }
+             ]
+            },
+            {
+             "event_attribute": "_Exit",
+             "Pattern": "svg_CLICK*svg_CLICK*svg_CLICK*combobox_SELECT*button_CLICK",
+             "value": 1,
+             "median_index": 10.5,
+             "average_index": 10.5,
+             "sequences": [
+              0
+             ],
+             "children": []
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

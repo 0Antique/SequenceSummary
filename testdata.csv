@@ -1,0 +1,12 @@
+timestamp,event_type,details,sequence_id
+2024-01-01 00:00:01,combobox_SELECT,Reservation type -> Pickup,seq_1
+2024-01-01 00:00:02,svg_CLICK,,seq_1
+2024-01-01 00:00:03,searchbox_TYPE,Find a location -> Boston,seq_1
+2024-01-01 00:00:04,span_CLICK,Boston,seq_1
+2024-01-01 00:00:05,svg_CLICK,,seq_1
+2024-01-01 00:00:06,button_CLICK,18,seq_1
+2024-01-01 00:00:07,combobox_SELECT,Time -> 5:00 PM,seq_1
+2024-01-01 00:00:08,svg_CLICK,,seq_1
+2024-01-01 00:00:09,span_CLICK,2 guests,seq_1
+2024-01-01 00:00:10,combobox_SELECT,Size -> 1 guest,seq_1
+2024-01-01 00:00:11,button_CLICK,Update search,seq_1

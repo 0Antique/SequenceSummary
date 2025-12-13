@@ -1,0 +1,495 @@
+{
+ "nodes": [
+  {
+   "id": 1,
+   "event_attribute": "_Start",
+   "pattern": "P",
+   "value": "2",
+   "value_event": "0",
+   "median_index": 0,
+   "average_index": 0,
+   "sequences": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "event_attribute": "svg_CLICK",
+   "pattern": "Psvg_CLICK",
+   "value": "2",
+   "value_event": "0",
+   "median_index": 0.5,
+   "average_index": 0.5,
+   "sequences": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 5,
+   "event_attribute": "searchbox_TYPE",
+   "pattern": "Psvg_CLICK*searchbox_TYPE",
+   "value": "2",
+   "value_event": "0",
+   "median_index": 2.0,
+   "average_index": 2.0,
+   "sequences": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 7,
+   "event_attribute": "span_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK",
+   "value": "2",
+   "value_event": "0",
+   "median_index": 3.0,
+   "average_index": 3.0,
+   "sequences": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 9,
+   "event_attribute": "svg_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK",
+   "value": "2",
+   "value_event": "0",
+   "median_index": 4.5,
+   "average_index": 4.5,
+   "sequences": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 11,
+   "event_attribute": "button_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK",
+   "value": "2",
+   "value_event": "0",
+   "median_index": 6.0,
+   "average_index": 6.0,
+   "sequences": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 13,
+   "event_attribute": "combobox_SELECT",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT",
+   "value": "2",
+   "value_event": "0",
+   "median_index": 7.0,
+   "average_index": 7.0,
+   "sequences": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 15,
+   "event_attribute": "svg_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK",
+   "value": "2",
+   "value_event": "0",
+   "median_index": 8.5,
+   "average_index": 8.5,
+   "sequences": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 17,
+   "event_attribute": "button_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*button_CLICK",
+   "value": "2",
+   "value_event": "0",
+   "median_index": 10.5,
+   "average_index": 10.5,
+   "sequences": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": 19,
+   "event_attribute": "checkbox_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 11.5,
+   "average_index": 11.5,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 21,
+   "event_attribute": "button_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 12.5,
+   "average_index": 12.5,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 23,
+   "event_attribute": "span_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*span_CLICK*button_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 9.5,
+   "average_index": 9.5,
+   "sequences": [
+    0
+   ]
+  },
+  {
+   "id": 25,
+   "event_attribute": "button_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK*button_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 13.5,
+   "average_index": 13.5,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 27,
+   "event_attribute": "combobox_SELECT",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*span_CLICK*combobox_SELECT*button_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 10.5,
+   "average_index": 10.5,
+   "sequences": [
+    0
+   ]
+  },
+  {
+   "id": 29,
+   "event_attribute": "checkbox_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK*button_CLICK*checkbox_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 14.5,
+   "average_index": 14.5,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 31,
+   "event_attribute": "combobox_SELECT",
+   "pattern": "Pcombobox_SELECT*svg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*span_CLICK*combobox_SELECT*button_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 0.0,
+   "average_index": 0.0,
+   "sequences": [
+    0
+   ]
+  },
+  {
+   "id": 33,
+   "event_attribute": "checkbox_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK*button_CLICK*checkbox_CLICK*checkbox_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 15.5,
+   "average_index": 15.5,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 37,
+   "event_attribute": "button_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK*button_CLICK*checkbox_CLICK*checkbox_CLICK*button_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 16.5,
+   "average_index": 16.5,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 39,
+   "event_attribute": "span_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK*button_CLICK*checkbox_CLICK*checkbox_CLICK*button_CLICK*span_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 17.5,
+   "average_index": 17.5,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 41,
+   "event_attribute": "combobox_SELECT",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK*button_CLICK*checkbox_CLICK*checkbox_CLICK*button_CLICK*span_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 8.0,
+   "average_index": 8.0,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 43,
+   "event_attribute": "svg_CLICK",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK*button_CLICK*checkbox_CLICK*checkbox_CLICK*button_CLICK*span_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 5.5,
+   "average_index": 5.5,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 45,
+   "event_attribute": "combobox_SELECT",
+   "pattern": "Psvg_CLICK*searchbox_TYPE*span_CLICK*combobox_SELECT*svg_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK*button_CLICK*checkbox_CLICK*checkbox_CLICK*button_CLICK*span_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 4.0,
+   "average_index": 4.0,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 47,
+   "event_attribute": "svg_CLICK",
+   "pattern": "Psvg_CLICK*svg_CLICK*searchbox_TYPE*span_CLICK*combobox_SELECT*svg_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK*button_CLICK*checkbox_CLICK*checkbox_CLICK*button_CLICK*span_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 1.5,
+   "average_index": 1.5,
+   "sequences": [
+    1
+   ]
+  },
+  {
+   "id": 50,
+   "event_attribute": "_Exit",
+   "pattern": "Pcombobox_SELECT*svg_CLICK*searchbox_TYPE*span_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*svg_CLICK*span_CLICK*combobox_SELECT*button_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 10.5,
+   "average_index": 10.5,
+   "sequences": [
+    0
+   ]
+  },
+  {
+   "id": 51,
+   "event_attribute": "_Exit",
+   "pattern": "Psvg_CLICK*svg_CLICK*searchbox_TYPE*span_CLICK*combobox_SELECT*svg_CLICK*svg_CLICK*button_CLICK*combobox_SELECT*combobox_SELECT*svg_CLICK*button_CLICK*checkbox_CLICK*button_CLICK*button_CLICK*checkbox_CLICK*checkbox_CLICK*button_CLICK*span_CLICK",
+   "value": "1",
+   "value_event": "0",
+   "median_index": 17.5,
+   "average_index": 17.5,
+   "sequences": [
+    1
+   ]
+  }
+ ],
+ "links": [
+  {
+   "source": 1,
+   "target": 3,
+   "count": 2,
+   "length": 0.5
+  },
+  {
+   "source": 1,
+   "target": 31,
+   "count": 1,
+   "length": 0.0
+  },
+  {
+   "source": 3,
+   "target": 5,
+   "count": 1,
+   "length": 1.5
+  },
+  {
+   "source": 3,
+   "target": 47,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 5,
+   "target": 7,
+   "count": 2,
+   "length": 1.0
+  },
+  {
+   "source": 7,
+   "target": 9,
+   "count": 1,
+   "length": 1.5
+  },
+  {
+   "source": 7,
+   "target": 45,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 9,
+   "target": 11,
+   "count": 1,
+   "length": 1.5
+  },
+  {
+   "source": 9,
+   "target": 43,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 11,
+   "target": 13,
+   "count": 2,
+   "length": 1.0
+  },
+  {
+   "source": 13,
+   "target": 15,
+   "count": 1,
+   "length": 1.5
+  },
+  {
+   "source": 13,
+   "target": 41,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 15,
+   "target": 17,
+   "count": 1,
+   "length": 2.0
+  },
+  {
+   "source": 15,
+   "target": 23,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 17,
+   "target": 19,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 17,
+   "target": 50,
+   "count": 1,
+   "length": 2.0
+  },
+  {
+   "source": 19,
+   "target": 21,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 21,
+   "target": 25,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 23,
+   "target": 27,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 25,
+   "target": 29,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 27,
+   "target": 17,
+   "count": 1,
+   "length": 3.0
+  },
+  {
+   "source": 29,
+   "target": 33,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 31,
+   "target": 3,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 33,
+   "target": 37,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 37,
+   "target": 39,
+   "count": 1,
+   "length": 1.0
+  },
+  {
+   "source": 39,
+   "target": 51,
+   "count": 1,
+   "length": 2.0
+  },
+  {
+   "source": 41,
+   "target": 15,
+   "count": 1,
+   "length": 2.0
+  },
+  {
+   "source": 43,
+   "target": 11,
+   "count": 1,
+   "length": 2.0
+  },
+  {
+   "source": 45,
+   "target": 9,
+   "count": 1,
+   "length": 2.0
+  },
+  {
+   "source": 47,
+   "target": 5,
+   "count": 1,
+   "length": 2.0
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+timestamp,event_type,details,sequence_id
+2024-01-01 00:00:01,combobox_SELECT,Reservation type -> Pickup,seq_1
+2024-01-01 00:00:02,svg_CLICK,,seq_1
+2024-01-01 00:00:03,searchbox_TYPE,Find a location -> Boston,seq_1
+2024-01-01 00:00:04,span_CLICK,Boston,seq_1
+2024-01-01 00:00:05,svg_CLICK,,seq_1
+2024-01-01 00:00:06,button_CLICK,18,seq_1
+2024-01-01 00:00:07,combobox_SELECT,Time -> 5:00 PM,seq_1
+2024-01-01 00:00:08,svg_CLICK,,seq_1
+2024-01-01 00:00:09,span_CLICK,2 guests,seq_1
+2024-01-01 00:00:10,combobox_SELECT,Size -> 1 guest,seq_1
+2024-01-01 00:00:11,button_CLICK,Update search,seq_1
+2025-12-13 06:49:32,svg_CLICK,,seq_2
+2025-12-13 06:49:33,svg_CLICK,,seq_2
+2025-12-13 06:49:34,searchbox_TYPE,Find a location -> NAPA VALLEY,seq_2
+2025-12-13 06:49:35,span_CLICK,Napa Valley,seq_2
+2025-12-13 06:49:36,combobox_SELECT,Reservation type -> Wineries,seq_2
+2025-12-13 06:49:37,svg_CLICK,,seq_2
+2025-12-13 06:49:38,svg_CLICK,,seq_2
+2025-12-13 06:49:39,button_CLICK,15,seq_2
+2025-12-13 06:49:40,combobox_SELECT,Time -> 10:00 AM,seq_2
+2025-12-13 06:49:41,combobox_SELECT,Party size -> 4 guests,seq_2
+2025-12-13 06:49:42,svg_CLICK,,seq_2
+2025-12-13 06:49:43,button_CLICK,Edit cuisine type filter,seq_2
+2025-12-13 06:49:44,checkbox_CLICK,Mediterranean,seq_2
+2025-12-13 06:49:45,button_CLICK,Submit,seq_2
+2025-12-13 06:49:46,button_CLICK,Open additional search filters,seq_2
+2025-12-13 06:49:47,checkbox_CLICK,Outdoors,seq_2
+2025-12-13 06:49:48,checkbox_CLICK,Wine tasting,seq_2
+2025-12-13 06:49:49,button_CLICK,Update search,seq_2
+2025-12-13 06:49:50,span_CLICK,10:00 AM,seq_2
