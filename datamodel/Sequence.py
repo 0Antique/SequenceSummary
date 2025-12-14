@@ -176,7 +176,7 @@ class Sequence:
     def seqListtotsv(sequenceLists, attr):
         """Convert sequence list to tsv
         where each line is a sequence"""
-        with open("demo4.tsv", "w") as demoFile:
+        with open("demo4.tsv", "w", encoding="utf-8") as demoFile:
             demowriter = csv.writer(demoFile, delimiter="\t")
             demowriter.writerow(["id", "text"])
             id = 1

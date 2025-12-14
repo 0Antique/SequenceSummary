@@ -1,0 +1,50 @@
+timestamp,event_type,details,sequence_id
+2024-01-01 00:00:01,> CLICK,[link]  NFL . -> CLICK,seq_1
+2024-01-01 00:00:02,> CLICK,[link]  Scores/Schedule -> CLICK,seq_1
+2024-01-02 00:00:01,> HOVER,[link]  NBA . -> HOVER,seq_2
+2024-01-02 00:00:02,> CLICK,[link]  Injuries . -> CLICK,seq_2
+2024-01-03 00:00:01,> HOVER,[link]  NBA . -> HOVER,seq_3
+2024-01-03 00:00:02,> CLICK,[div]  Denver -> CLICK,seq_3
+2024-01-03 00:00:03,> CLICK,[button]  Follow team -> CLICK,seq_3
+2024-01-04 00:00:01,> HOVER,[link]  NBA . -> HOVER,seq_4
+2024-01-04 00:00:02,> CLICK,[img]   -> CLICK,seq_4
+2024-01-04 00:00:03,> CLICK,[link]  Roster -> CLICK,seq_4
+2024-01-05 00:00:01,> TYPE: bath towels,[textbox]  Search by keyword or web id -> TYPE: bath towels,seq_5
+2024-01-05 00:00:02,> CLICK,[span]  bath towels -> CLICK,seq_5
+2024-01-05 00:00:03,> CLICK,[img]  Sonoma Goods For Life® Ultimate Bath Towel with Hy... -> CLICK,seq_5
+2024-01-05 00:00:04,> CLICK,[link]  BATH TOWEL -> CLICK,seq_5
+2024-01-05 00:00:05,> CLICK,[button]  Add to Cart -> CLICK,seq_5
+2024-01-05 00:00:06,> CLICK,[button]  View Cart & Checkout -> CLICK,seq_5
+2024-01-05 00:00:07,> TYPE: FREESHIP3093,[textbox]  Add Kohl's Cash or Coupons -> TYPE: FREESHIP3093,seq_5
+2024-01-05 00:00:08,> CLICK,[button]  Add Kohl's Cash or Coupon button -> CLICK,seq_5
+2024-01-06 00:00:01,> CLICK,[textbox]  What type of deals? -> CLICK,seq_6
+2024-01-06 00:00:02,> CLICK,[div]  Luxury Trips -> CLICK,seq_6
+2024-01-06 00:00:03,> CLICK,[div]  Anywhere -> CLICK,seq_6
+2024-01-06 00:00:04,> CLICK,[textbox]  When? -> CLICK,seq_6
+2024-01-06 00:00:05,> CLICK,[li]  Spring -> CLICK,seq_6
+2024-01-06 00:00:06,> CLICK,[button]  SEARCH DEALS -> CLICK,seq_6
+2024-01-07 00:00:01,> CLICK,[textbox]  What type of deals? -> CLICK,seq_7
+2024-01-07 00:00:02,> CLICK,[div]  Hotels -> CLICK,seq_7
+2024-01-07 00:00:03,> TYPE: las vegas,[textbox]  Where? -> TYPE: las vegas,seq_7
+2024-01-07 00:00:04,> CLICK,"[div]  Las Vegas, NV -> CLICK",seq_7
+2024-01-07 00:00:05,> CLICK,[textbox]  When? -> CLICK,seq_7
+2024-01-07 00:00:06,> CLICK,[link]  17 -> CLICK,seq_7
+2024-01-07 00:00:07,> CLICK,[link]  20 -> CLICK,seq_7
+2024-01-07 00:00:08,> SELECT: 4 Guests,[combobox]  How many guests? -> SELECT: 4 Guests,seq_7
+2024-01-07 00:00:09,> CLICK,[button]  SEARCH DEALS -> CLICK,seq_7
+2024-01-07 00:00:10,> CLICK,[button]  SET AN ALERT FOR LAS VEGAS -> CLICK,seq_7
+2024-01-08 00:00:01,> CLICK,[link]  Cruises -> CLICK,seq_8
+2024-01-08 00:00:02,> CLICK,[link]  Europe & Mediterranean Cruises 16 DEALS -> CLICK,seq_8
+2024-01-08 00:00:03,> CLICK,[button]  Filter -> CLICK,seq_8
+2024-01-08 00:00:04,> CLICK,[button]  $ Price: High to Low -> CLICK,seq_8
+2024-01-08 00:00:05,> CLICK,[button]  DONE -> CLICK,seq_8
+2024-01-09 00:00:01,> CLICK,[textbox]  What type of deals? -> CLICK,seq_9
+2024-01-09 00:00:02,> CLICK,[div]  Things To Do -> CLICK,seq_9
+2024-01-09 00:00:03,> CLICK,[div]  Anywhere -> CLICK,seq_9
+2024-01-09 00:00:04,> CLICK,[textbox]  When? -> CLICK,seq_9
+2024-01-09 00:00:05,> CLICK,[tab]  Select a Month -> CLICK,seq_9
+2024-01-09 00:00:06,> CLICK,[li]  December -> CLICK,seq_9
+2024-01-09 00:00:07,> CLICK,[button]  Filter -> CLICK,seq_9
+2024-01-09 00:00:08,> CLICK,[button]  $ Price: High to Low -> CLICK,seq_9
+2024-01-09 00:00:09,> CLICK,[button]  DONE -> CLICK,seq_9
+2024-01-09 00:00:10,> CLICK,[span]  Map -> CLICK,seq_9

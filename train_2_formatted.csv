@@ -1,0 +1,641 @@
+timestamp,event_type,details,sequence_id
+2024-01-01 00:00:01,> CLICK,[heading]  CAR -> CLICK,seq_1
+2024-01-01 00:00:02,> TYPE: Brooklyn Central,"[combobox]  Enter pick up city, airport name, or airport code. -> TYPE: Brooklyn Central",seq_1
+2024-01-01 00:00:03,> CLICK,"[div]  Brooklyn - Central (New York), US -> CLICK",seq_1
+2024-01-01 00:00:04,> CLICK,[textbox]  Pickup -> CLICK,seq_1
+2024-01-01 00:00:05,> CLICK,"[button]  Sunday, April 9, 2023 -> CLICK",seq_1
+2024-01-01 00:00:06,> CLICK,"[button]  Saturday, April 15, 2023 -> CLICK",seq_1
+2024-01-01 00:00:07,> CLICK,[button]  Find cars button. -> CLICK,seq_1
+2024-01-02 00:00:01,> CLICK,[button]  Reviews -> CLICK,seq_2
+2024-01-02 00:00:02,> CLICK,[link]  Game Reviews -> CLICK,seq_2
+2024-01-02 00:00:03,> SELECT: PC,[combobox]  Platform -> SELECT: PC,seq_2
+2024-01-02 00:00:04,> SELECT: Sort by Score,[combobox]  Sort -> SELECT: Sort by Score,seq_2
+2024-01-03 00:00:01,> CLICK,[button]  Community -> CLICK,seq_3
+2024-01-03 00:00:02,> CLICK,[link]  Record Stores -> CLICK,seq_3
+2024-01-03 00:00:03,> CLICK,[link]  Explore the directory -> CLICK,seq_3
+2024-01-03 00:00:04,> TYPE: Boston,[searchbox]  Refine Location -> TYPE: Boston,seq_3
+2024-01-03 00:00:05,> CLICK,"[span]  MA, USA -> CLICK",seq_3
+2024-01-03 00:00:06,> CLICK,[button]  Armageddon Shop -> CLICK,seq_3
+2024-01-04 00:00:01,> TYPE: gorillaz,"[combobox]  Search artists, albums and more... -> TYPE: gorillaz",seq_4
+2024-01-04 00:00:02,> CLICK,[link]  Gorillaz Gorillaz Artist -> CLICK,seq_4
+2024-01-04 00:00:03,> CLICK,[link]  Gorillaz -> CLICK,seq_4
+2024-01-04 00:00:04,> CLICK,[link]  Buy a copy -> CLICK,seq_4
+2024-01-04 00:00:05,> CLICK,[link]  Add to Cart -> CLICK,seq_4
+2024-01-05 00:00:01,> CLICK,[button]  Marketplace -> CLICK,seq_5
+2024-01-05 00:00:02,> CLICK,[link]  Pop Rock -> CLICK,seq_5
+2024-01-05 00:00:03,> CLICK,"[link]  958,222 United Kingdom -> CLICK",seq_5
+2024-01-05 00:00:04,> CLICK,"[link]  246,685 CD -> CLICK",seq_5
+2024-01-05 00:00:05,> CLICK,"[link]  122,512 Album -> CLICK",seq_5
+2024-01-05 00:00:06,> CLICK,[link]  Show more… -> CLICK,seq_5
+2024-01-05 00:00:07,> CLICK,"[link]  1,342 2016 -> CLICK",seq_5
+2024-01-05 00:00:08,> CLICK,[link]  98 £15 - £20 -> CLICK,seq_5
+2024-01-05 00:00:09,> CLICK,[link]  Condition -> CLICK,seq_5
+2024-01-05 00:00:10,> CLICK,"[link]  Phil Collins - Both Sides (CD, Album, RE + CD + Dl... -> CLICK",seq_5
+2024-01-05 00:00:11,> CLICK,[link]  Add to Cart -> CLICK,seq_5
+2024-01-05 00:00:12,> CLICK,[checkbox]   I agree to Sales & Transaction Policy and Seller ... -> CLICK,seq_5
+2024-01-05 00:00:13,> CLICK,[button]  Place order and pay now -> CLICK,seq_5
+2024-01-06 00:00:01,> CLICK,[link]  Careers -> CLICK,seq_6
+2024-01-06 00:00:02,> CLICK,[link]  Openings -> CLICK,seq_6
+2024-01-06 00:00:03,> CLICK,[button]  Country -> CLICK,seq_6
+2024-01-06 00:00:04,> CLICK,[searchbox]  Search -> CLICK,seq_6
+2024-01-06 00:00:05,> CLICK,[option]  United States of America -> CLICK,seq_6
+2024-01-06 00:00:06,> CLICK,[button]  Team -> CLICK,seq_6
+2024-01-06 00:00:07,> CLICK,[searchbox]  Search -> CLICK,seq_6
+2024-01-06 00:00:08,> CLICK,[option]  Finance -> CLICK,seq_6
+2024-01-06 00:00:09,> CLICK,[button]  Time Type -> CLICK,seq_6
+2024-01-06 00:00:10,> CLICK,[searchbox]  Search -> CLICK,seq_6
+2024-01-06 00:00:11,> CLICK,[option]  Full time -> CLICK,seq_6
+2024-01-06 00:00:12,> CLICK,[button]  SEARCH BY JOB TITLE OR KEYWORD -> CLICK,seq_6
+2024-01-06 00:00:13,> CLICK,[link]  Accounts Payable Associate -> CLICK,seq_6
+2024-01-06 00:00:14,> CLICK,[link]  APPLY NOW -> CLICK,seq_6
+2024-01-07 00:00:01,> CLICK,[link]  Luxury Car Rental -> CLICK,seq_7
+2024-01-07 00:00:02,"> TYPE: New York, United States, 100","[textbox]  Enter your pick-up location or zip code -> TYPE: New York, United States, 100",seq_7
+2024-01-07 00:00:03,> ENTER,[textbox]  Enter your pick-up location or zip code -> ENTER,seq_7
+2024-01-07 00:00:04,> CLICK,[link]  Close -> CLICK,seq_7
+2024-01-07 00:00:05,> CLICK,[div]  Sort by: -> CLICK,seq_7
+2024-01-07 00:00:06,> CLICK,[link]   Price (Low to High) -> CLICK,seq_7
+2024-01-08 00:00:01,> CLICK,[link]  Long-Term Car Rental -> CLICK,seq_8
+2024-01-08 00:00:02,> TYPE: orlando,[textbox]  Enter your pick-up location or zip code -> TYPE: orlando,seq_8
+2024-01-08 00:00:03,> CLICK,[span]  Orlando Intl Airport -> CLICK,seq_8
+2024-01-08 00:00:04,> CLICK,[textbox]  mm/dd/yyyy -> CLICK,seq_8
+2024-01-08 00:00:05,> CLICK,[link]  29 -> CLICK,seq_8
+2024-01-08 00:00:06,> CLICK,[link]  28 -> CLICK,seq_8
+2024-01-08 00:00:07,> SELECT: 9:00 AM,[combobox]  Pick Up Time -> SELECT: 9:00 AM,seq_8
+2024-01-08 00:00:08,> SELECT: 9:00 AM,[combobox]  Return Time -> SELECT: 9:00 AM,seq_8
+2024-01-08 00:00:09,> CLICK,[button]  Select My Car -> CLICK,seq_8
+2024-01-08 00:00:10,> CLICK,[link]  Recommended -> CLICK,seq_8
+2024-01-08 00:00:11,> CLICK,[link]   Price (Low to High) -> CLICK,seq_8
+2024-01-08 00:00:12,> CLICK,[link]  Pay Now -> CLICK,seq_8
+2024-01-08 00:00:13,> CLICK,[checkbox]  $16.99/Day$6.55/Day -> CLICK,seq_8
+2024-01-08 00:00:14,> CLICK,[checkbox]  $5.99/Day$1.38/Day -> CLICK,seq_8
+2024-01-08 00:00:15,> CLICK,[checkbox]  MARKET -> CLICK,seq_8
+2024-01-08 00:00:16,> CLICK,[button]  Continue -> CLICK,seq_8
+2024-01-09 00:00:01,> TYPE: Tsiakkos & Charcoal,"[textbox]  Search restaurants, cuisines, etc. -> TYPE: Tsiakkos & Charcoal",seq_9
+2024-01-09 00:00:02,> CLICK,[heading]  Tsiakkos & Charcoal -> CLICK,seq_9
+2024-01-09 00:00:03,> CLICK,[button]  View All (10) -> CLICK,seq_9
+2024-01-10 00:00:01,> HOVER,[link]  MOVIES -> HOVER,seq_10
+2024-01-10 00:00:02,> CLICK,[link]  Certified fresh movies -> CLICK,seq_10
+2024-01-10 00:00:03,> CLICK,[svg]   -> CLICK,seq_10
+2024-01-10 00:00:04,> CLICK,[div]   -> CLICK,seq_10
+2024-01-10 00:00:05,> CLICK,[button]  APPLY -> CLICK,seq_10
+2024-01-11 00:00:01,> TYPE: scream,[textbox]  Search -> TYPE: scream,seq_11
+2024-01-11 00:00:02,> CLICK,"[p]  Neve Campbell, Courteney Cox, David Arquette -> CLICK",seq_11
+2024-01-11 00:00:03,> CLICK,[link]  Melissa Barrera -> CLICK,seq_11
+2024-01-11 00:00:04,> CLICK,[link]  In the Heights -> CLICK,seq_11
+2024-01-12 00:00:01,> TYPE: larryknox@gmail.com,[textbox]  Email Address * -> TYPE: larryknox@gmail.com,seq_12
+2024-01-12 00:00:02,> CLICK,[button]  Sign Up -> CLICK,seq_12
+2024-01-13 00:00:01,> HOVER,[menuitem]  Kids -> HOVER,seq_13
+2024-01-13 00:00:02,> CLICK,[menuitem]  Pants & Leggings -> CLICK,seq_13
+2024-01-13 00:00:03,> CLICK,[div]  Sports -> CLICK,seq_13
+2024-01-13 00:00:04,> CLICK,[link]  Training -> CLICK,seq_13
+2024-01-13 00:00:05,> CLICK,[div]  Size -> CLICK,seq_13
+2024-01-13 00:00:06,> CLICK,[link]  YXL -> CLICK,seq_13
+2024-01-13 00:00:07,> CLICK,[div]  Size -> CLICK,seq_13
+2024-01-13 00:00:08,> CLICK,[div]  Sports -> CLICK,seq_13
+2024-01-13 00:00:09,> CLICK,[div]  Fit -> CLICK,seq_13
+2024-01-13 00:00:10,> CLICK,[link]  Fitted -> CLICK,seq_13
+2024-01-13 00:00:11,> CLICK,[div]  Size -> CLICK,seq_13
+2024-01-13 00:00:12,> CLICK,[span]  Now Trending -> CLICK,seq_13
+2024-01-13 00:00:13,> CLICK,[li]  Newest -> CLICK,seq_13
+2024-01-13 00:00:14,> CLICK,[button]  Add to Wish List -> CLICK,seq_13
+2024-01-13 00:00:15,> CLICK,[button]  Add to Wish List -> CLICK,seq_13
+2024-01-13 00:00:16,> CLICK,[button]  Add to Wish List -> CLICK,seq_13
+2024-01-14 00:00:01,> CLICK,[link]  Search for hotels -> CLICK,seq_14
+2024-01-14 00:00:02,> TYPE: Chennai,"[textbox]  Enter a city, hotel, airport, address or landmark -> TYPE: Chennai",seq_14
+2024-01-14 00:00:03,> CLICK,"[option]  Chennai, Tamil Nadu, India -> CLICK",seq_14
+2024-01-14 00:00:04,> CLICK,"[button]  Monday March 20, 2023 -> CLICK",seq_14
+2024-01-14 00:00:05,> CLICK,[button]  Search -> CLICK,seq_14
+2024-01-14 00:00:06,> CLICK,[svg]   -> CLICK,seq_14
+2024-01-14 00:00:07,> CLICK,[tab]  Review score -> CLICK,seq_14
+2024-01-14 00:00:08,> CLICK,[checkbox]  Free internet -> CLICK,seq_14
+2024-01-14 00:00:09,> CLICK,[checkbox]  Free cancellation -> CLICK,seq_14
+2024-01-15 00:00:01,> HOVER,[link]  NEWS -> HOVER,seq_15
+2024-01-15 00:00:02,> CLICK,[link]  VIEW ALL -> CLICK,seq_15
+2024-01-16 00:00:01,> HOVER,[link]  MOVIES -> HOVER,seq_16
+2024-01-16 00:00:02,> CLICK,[link]  Trailers -> CLICK,seq_16
+2024-01-16 00:00:03,> CLICK,[link]  VIEW ALL -> CLICK,seq_16
+2024-01-16 00:00:04,> CLICK,[span]  Tomatometer -> CLICK,seq_16
+2024-01-16 00:00:05,> CLICK,[div]   -> CLICK,seq_16
+2024-01-16 00:00:06,> CLICK,[button]  APPLY -> CLICK,seq_16
+2024-01-17 00:00:01,> CLICK,[div]  … -> CLICK,seq_17
+2024-01-17 00:00:02,> CLICK,[link]  Soccer . -> CLICK,seq_17
+2024-01-17 00:00:03,> HOVER,[link]  Premier League -> HOVER,seq_17
+2024-01-17 00:00:04,> CLICK,[link]  Standings -> CLICK,seq_17
+2024-01-18 00:00:01,> HOVER,[link]  NFL . -> HOVER,seq_18
+2024-01-18 00:00:02,> CLICK,[link]  Stats . -> CLICK,seq_18
+2024-01-18 00:00:03,> CLICK,[link]  Touchdowns -> CLICK,seq_18
+2024-01-19 00:00:01,> HOVER,[link]  Fantasy . -> HOVER,seq_19
+2024-01-19 00:00:02,> CLICK,[link]  Download the App . -> CLICK,seq_19
+2024-01-20 00:00:01,> CLICK,[link]  NBA . -> CLICK,seq_20
+2024-01-20 00:00:02,> CLICK,[link]  Teams -> CLICK,seq_20
+2024-01-20 00:00:03,> CLICK,[link]  Los Angeles Lakers -> CLICK,seq_20
+2024-01-21 00:00:01,> CLICK,[tab]  Monthly -> CLICK,seq_21
+2024-01-21 00:00:02,> TYPE: Chicago,[textbox]  Search for parking -> TYPE: Chicago,seq_21
+2024-01-21 00:00:03,> CLICK,"[li]  Chicago, IL, USA -> CLICK",seq_21
+2024-01-21 00:00:04,> CLICK,[button]  Filter -> CLICK,seq_21
+2024-01-21 00:00:05,> CLICK,[checkbox]  EV Charging (10) -> CLICK,seq_21
+2024-01-21 00:00:06,> CLICK,[button]  Show 10 Results -> CLICK,seq_21
+2024-01-21 00:00:07,> SELECT: Sort by Price,[select]  Sort by Distance -> SELECT: Sort by Price,seq_21
+2024-01-21 00:00:08,> CLICK,[button]  View Details -> CLICK,seq_21
+2024-01-22 00:00:01,> TYPE: New York City,[textbox]  Search for parking -> TYPE: New York City,seq_22
+2024-01-22 00:00:02,> CLICK,"[li]  New York City, NY, USA -> CLICK",seq_22
+2024-01-22 00:00:03,> SELECT: Sort by Price,[select]  Sort by Distance -> SELECT: Sort by Price,seq_22
+2024-01-23 00:00:01,> CLICK,[link]  Search for hotels -> CLICK,seq_23
+2024-01-23 00:00:02,> TYPE: Los Angeles,"[textbox]  Enter a city, hotel, airport, address or landmark -> TYPE: Los Angeles",seq_23
+2024-01-23 00:00:03,> CLICK,[span]  City -> CLICK,seq_23
+2024-01-23 00:00:04,> CLICK,[div]  21 -> CLICK,seq_23
+2024-01-23 00:00:05,> CLICK,[div]  23 -> CLICK,seq_23
+2024-01-23 00:00:06,> CLICK,[path]   -> CLICK,seq_23
+2024-01-23 00:00:07,> CLICK,[div]  4 -> CLICK,seq_23
+2024-01-23 00:00:08,> CLICK,[svg]   -> CLICK,seq_23
+2024-01-24 00:00:01,> CLICK,[link]  Search for flights -> CLICK,seq_24
+2024-01-24 00:00:02,> TYPE: madurai,[textbox]  Flight origin input -> TYPE: madurai,seq_24
+2024-01-24 00:00:03,> CLICK,"[div]  Madurai, Tamil Nadu, India -> CLICK",seq_24
+2024-01-24 00:00:04,> CLICK,[path]   -> CLICK,seq_24
+2024-01-24 00:00:05,> CLICK,[button]  Search -> CLICK,seq_24
+2024-01-24 00:00:06,> CLICK,[svg]   -> CLICK,seq_24
+2024-01-24 00:00:07,> HOVER,[label]  Air India -> HOVER,seq_24
+2024-01-24 00:00:08,> CLICK,[button]  Air India only -> CLICK,seq_24
+2024-01-24 00:00:09,> CLICK,[button]  Cheapest -> CLICK,seq_24
+2024-01-25 00:00:01,> CLICK,[button]  Open Navigation Drawer -> CLICK,seq_25
+2024-01-25 00:00:02,> CLICK,[span]  Oscars -> CLICK,seq_25
+2024-01-25 00:00:03,> CLICK,[link]  1990 -> CLICK,seq_25
+2024-01-25 00:00:04,> CLICK,[link]  Denzel Washington -> CLICK,seq_25
+2024-01-25 00:00:05,> CLICK,[button]  Expand Upcoming -> CLICK,seq_25
+2024-01-25 00:00:06,> CLICK,[button]  add to watchlist -> CLICK,seq_25
+2024-01-25 00:00:07,> CLICK,[button]  add to watchlist -> CLICK,seq_25
+2024-01-26 00:00:01,> CLICK,[button]  Watchlist5 -> CLICK,seq_26
+2024-01-26 00:00:02,> CLICK,[link]  EDIT -> CLICK,seq_26
+2024-01-27 00:00:01,> TYPE: The Last of Us,[textbox]  Search IMDb -> TYPE: The Last of Us,seq_27
+2024-01-27 00:00:02,> CLICK,"[link]  The Last of Us The Last of Us 2023 Pedro Pascal, B... -> CLICK",seq_27
+2024-01-27 00:00:03,> CLICK,[div]  Add to Watchlist -> CLICK,seq_27
+2024-01-28 00:00:01,> CLICK,[button]  Open Navigation Drawer -> CLICK,seq_28
+2024-01-28 00:00:02,> CLICK,[span]  What to Watch -> CLICK,seq_28
+2024-01-29 00:00:01,> CLICK,[button]  Open Navigation Drawer -> CLICK,seq_29
+2024-01-29 00:00:02,> CLICK,[span]  Browse Movies by Genre -> CLICK,seq_29
+2024-01-29 00:00:03,> CLICK,[img]  Comedy -> CLICK,seq_29
+2024-01-29 00:00:04,> CLICK,[link]  User Rating -> CLICK,seq_29
+2024-01-30 00:00:01,> CLICK,[link]  Shop by category∨ -> CLICK,seq_30
+2024-01-30 00:00:02,> CLICK,[link]  Shop by category∨ -> CLICK,seq_30
+2024-01-30 00:00:03,> CLICK,[link]  Ages 6-8 -> CLICK,seq_30
+2024-01-30 00:00:04,> CLICK,[link]  Education -> CLICK,seq_30
+2024-01-30 00:00:05,> CLICK,[span]  English Language -> CLICK,seq_30
+2024-01-30 00:00:06,> CLICK,[link]  English Language: Reading & Writing Skills -> CLICK,seq_30
+2024-01-30 00:00:07,"> SELECT: In Stock (41,088)","[select]  All -> SELECT: In Stock (41,088)",seq_30
+2024-01-30 00:00:08,"> SELECT: Hardback (13,067)","[select]  All -> SELECT: Hardback (13,067)",seq_30
+2024-01-30 00:00:09,> SELECT: Under US$20,[select]  All -> SELECT: Under US$20,seq_30
+2024-01-30 00:00:10,> CLICK,[button]  Refine results -> CLICK,seq_30
+2024-01-31 00:00:01,> CLICK,[link]  Advanced Search -> CLICK,seq_31
+2024-01-31 00:00:02,> CLICK,[input]   -> CLICK,seq_31
+2024-01-31 00:00:03,> TYPE: 1648926800,[input]   -> TYPE: 1648926800,seq_31
+2024-01-31 00:00:04,> SELECT: Hindi,[select]  All -> SELECT: Hindi,seq_31
+2024-01-31 00:00:05,> CLICK,[button]  Search -> CLICK,seq_31
+2024-02-01 00:00:01,> CLICK,[tab]  My Trips -> CLICK,seq_32
+2024-02-01 00:00:02,> TYPE: 123456,[textbox]  booking reference -> TYPE: 123456,seq_32
+2024-02-01 00:00:03,> TYPE: Smith,[textbox]  last name -> TYPE: Smith,seq_32
+2024-02-01 00:00:04,> CLICK,[button]  Retrieve booking -> CLICK,seq_32
+2024-02-02 00:00:01,> CLICK,[link]  Design -> CLICK,seq_33
+2024-02-02 00:00:02,> CLICK,[p]  Fresh Home Office -> CLICK,seq_33
+2024-02-03 00:00:01,> CLICK,[span]  Round-trip -> CLICK,seq_34
+2024-02-03 00:00:02,> CLICK,[tab]  One-way -> CLICK,seq_34
+2024-02-03 00:00:03,> TYPE: new york,[textbox]  Flight origin input -> TYPE: new york,seq_34
+2024-02-03 00:00:04,> CLICK,[div]  John F Kennedy Intl -> CLICK,seq_34
+2024-02-03 00:00:05,> TYPE: male,[textbox]  Flight destination input -> TYPE: male,seq_34
+2024-02-03 00:00:06,> CLICK,"[span]  Malé, Maldives -> CLICK",seq_34
+2024-02-03 00:00:07,> CLICK,[button]  Start date calendar input -> CLICK,seq_34
+2024-02-03 00:00:08,> CLICK,[div]  13 -> CLICK,seq_34
+2024-02-03 00:00:09,> CLICK,[button]  Search -> CLICK,seq_34
+2024-02-03 00:00:10,> CLICK,[div]   -> CLICK,seq_34
+2024-02-03 00:00:11,> CLICK,[div]  Quickest -> CLICK,seq_34
+2024-02-04 00:00:01,> CLICK,[link]  Search for packages -> CLICK,seq_35
+2024-02-04 00:00:02,> CLICK,[link]  Hawaii Vacations -> CLICK,seq_35
+2024-02-04 00:00:03,> CLICK,[generic]  Departure date input -> CLICK,seq_35
+2024-02-04 00:00:04,> CLICK,[button]  Next month -> CLICK,seq_35
+2024-02-04 00:00:05,> CLICK,[gridcell]  June 18 -> CLICK,seq_35
+2024-02-04 00:00:06,> CLICK,[gridcell]  June 21 -> CLICK,seq_35
+2024-02-04 00:00:07,> CLICK,[button]  Search packages -> CLICK,seq_35
+2024-02-04 00:00:08,> CLICK,[button]  Amenities -> CLICK,seq_35
+2024-02-04 00:00:09,> CLICK,[checkbox]  Beachfront -> CLICK,seq_35
+2024-02-04 00:00:10,> CLICK,[checkbox]  Hot tub -> CLICK,seq_35
+2024-02-04 00:00:11,> CLICK,[checkbox]  Pool -> CLICK,seq_35
+2024-02-04 00:00:12,> CLICK,[checkbox]  Towels -> CLICK,seq_35
+2024-02-04 00:00:13,> CLICK,[button]  Property style -> CLICK,seq_35
+2024-02-04 00:00:14,> CLICK,[checkbox]  Beach -> CLICK,seq_35
+2024-02-04 00:00:15,> CLICK,[div]  Recommended -> CLICK,seq_35
+2024-02-04 00:00:16,> CLICK,[tab]  Price (low to high) -> CLICK,seq_35
+2024-02-04 00:00:17,> CLICK,[div]  View Deal -> CLICK,seq_35
+2024-02-04 00:00:18,> CLICK,[button]  Next: Final details -> CLICK,seq_35
+2024-02-05 00:00:01,> TYPE: Pizza,"[textbox]  Search restaurants, cuisines, etc. -> TYPE: Pizza",seq_36
+2024-02-05 00:00:02,> CLICK,[b]  Pizza -> CLICK,seq_36
+2024-02-05 00:00:03,> SELECT: 6 Guests,[combobox]  Party of 2 -> SELECT: 6 Guests,seq_36
+2024-02-06 00:00:01,> CLICK,[path]   -> CLICK,seq_37
+2024-02-06 00:00:02,> CLICK,[button]  Austin -> CLICK,seq_37
+2024-02-06 00:00:03,> CLICK,[heading]  New On Resy -> CLICK,seq_37
+2024-02-06 00:00:04,> CLICK,"[button]  Sat., Apr. 22 -> CLICK",seq_37
+2024-02-06 00:00:05,> CLICK,"[button]  April 21, 2023. -> CLICK",seq_37
+2024-02-06 00:00:06,> SELECT: 2 Guests,[combobox]  Party of 2 -> SELECT: 2 Guests,seq_37
+2024-02-06 00:00:07,> CLICK,[link]  Este -> CLICK,seq_37
+2024-02-06 00:00:08,> CLICK,[button]  12:00 PM Dining -> CLICK,seq_37
+2024-02-06 00:00:09,> CLICK,[button]  Reserve Now -> CLICK,seq_37
+2024-02-07 00:00:01,> CLICK,[svg]   -> CLICK,seq_38
+2024-02-07 00:00:02,> CLICK,[button]  Miami -> CLICK,seq_38
+2024-02-07 00:00:03,> CLICK,"[textbox]  Search restaurants, cuisines, etc. -> CLICK",seq_38
+2024-02-07 00:00:04,> CLICK,[button]  View all Miami Restaurants › -> CLICK,seq_38
+2024-02-07 00:00:05,> CLICK,[path]   -> CLICK,seq_38
+2024-02-07 00:00:06,> CLICK,"[link]  Thursday, May 4th | American Express Presents CARB... -> CLICK",seq_38
+2024-02-07 00:00:07,> SELECT: 3 Tickets,"[combobox]  2 tickets for Thursday, May 4th | American Express... -> SELECT: 3 Tickets",seq_38
+2024-02-07 00:00:08,> CLICK,[button]  Book Now a ticket for Centurion® Member Access to ... -> CLICK,seq_38
+2024-02-07 00:00:09,> CLICK,[button]  Reserve Now -> CLICK,seq_38
+2024-02-08 00:00:01,> CLICK,[link]  Search -> CLICK,seq_39
+2024-02-08 00:00:02,> TYPE: Ariana Grande,[textbox]  Search -> TYPE: Ariana Grande,seq_39
+2024-02-08 00:00:03,> CLICK,[button]  Search -> CLICK,seq_39
+2024-02-08 00:00:04,> CLICK,[a]   -> CLICK,seq_39
+2024-02-08 00:00:05,> CLICK,[button]  Sorted by: Last 7 days -> CLICK,seq_39
+2024-02-08 00:00:06,> CLICK,[link]  All time -> CLICK,seq_39
+2024-02-08 00:00:07,> CLICK,[gridcell]  7 rings -> CLICK,seq_39
+2024-02-09 00:00:01,> CLICK,[link]  Charts -> CLICK,seq_40
+2024-02-09 00:00:02,> CLICK,[link]  Weekly -> CLICK,seq_40
+2024-02-09 00:00:03,> CLICK,[link]  The Weeknd -> CLICK,seq_40
+2024-02-09 00:00:04,> CLICK,[button]  Love this track -> CLICK,seq_40
+2024-02-09 00:00:05,> CLICK,[link]  Play track -> CLICK,seq_40
+2024-02-10 00:00:01,> CLICK,[button]  Cars & Services -> CLICK,seq_41
+2024-02-10 00:00:02,> CLICK,[link]  Products & Services -> CLICK,seq_41
+2024-02-10 00:00:03,> CLICK,[div]  Learn More -> CLICK,seq_41
+2024-02-10 00:00:04,> CLICK,[div]  Learn More -> CLICK,seq_41
+2024-02-10 00:00:05,> HOVER,[link]  click here -> HOVER,seq_41
+2024-02-11 00:00:01,> CLICK,[button]  Deals -> CLICK,seq_42
+2024-02-11 00:00:02,> CLICK,[link]  Partner Deals -> CLICK,seq_42
+2024-02-11 00:00:03,> CLICK,[button]  Learn More -> CLICK,seq_42
+2024-02-12 00:00:01,> TYPE: Manhattan,[textbox]  Enter your pick-up location or zip code -> TYPE: Manhattan,seq_43
+2024-02-12 00:00:02,> CLICK,[div]  Manhattan -> CLICK,seq_43
+2024-02-12 00:00:03,> CLICK,[textbox]  mm/dd/yyyy -> CLICK,seq_43
+2024-02-12 00:00:04,> CLICK,[link]  20 -> CLICK,seq_43
+2024-02-12 00:00:05,> CLICK,[link]  20 -> CLICK,seq_43
+2024-02-12 00:00:06,> SELECT: 3:00 PM,[combobox]  Pick Up Time -> SELECT: 3:00 PM,seq_43
+2024-02-12 00:00:07,> SELECT: 6:00 PM,[combobox]  Return Time -> SELECT: 6:00 PM,seq_43
+2024-02-12 00:00:08,> CLICK,[button]  Select My Car -> CLICK,seq_43
+2024-02-12 00:00:09,> CLICK,[link]  Close -> CLICK,seq_43
+2024-02-12 00:00:10,> CLICK,[link]  Pay Now -> CLICK,seq_43
+2024-02-13 00:00:01,> CLICK,[button]  Browse the Parks Below -> CLICK,seq_44
+2024-02-13 00:00:02,> CLICK,[span]  Six Flags Magic Mountain -> CLICK,seq_44
+2024-02-13 00:00:03,> CLICK,[button]  Go! -> CLICK,seq_44
+2024-02-13 00:00:04,> CLICK,"[link]  Tickets, Passes, VIP Tours  -> CLICK",seq_44
+2024-02-13 00:00:05,> CLICK,[link]  Tickets & Passes -> CLICK,seq_44
+2024-02-13 00:00:06,> CLICK,[span]  Buy Now > -> CLICK,seq_44
+2024-02-13 00:00:07,> CLICK,[button]  Buy Now -> CLICK,seq_44
+2024-02-13 00:00:08,> CLICK,[button]  Add to Cart -> CLICK,seq_44
+2024-02-13 00:00:09,> CLICK,[button]  No Thanks -> CLICK,seq_44
+2024-02-13 00:00:10,> CLICK,"[button]  No Thanks, Continue -> CLICK",seq_44
+2024-02-14 00:00:01,> CLICK,[button]  Browse the Parks Below -> CLICK,seq_45
+2024-02-14 00:00:02,> CLICK,[span]  Six Flags Magic Mountain -> CLICK,seq_45
+2024-02-14 00:00:03,> CLICK,[button]  Go! -> CLICK,seq_45
+2024-02-14 00:00:04,> CLICK,[link]  Park Hours & Calendar  Closed Today -> CLICK,seq_45
+2024-02-15 00:00:01,> CLICK,[button]  Browse the Parks Below -> CLICK,seq_46
+2024-02-15 00:00:02,> CLICK,[span]  Six Flags México -> CLICK,seq_46
+2024-02-15 00:00:03,> CLICK,[button]  Go! -> CLICK,seq_46
+2024-02-15 00:00:04,> CLICK,[link]  Planea Tu Visita  -> CLICK,seq_46
+2024-02-15 00:00:05,> CLICK,[link]  Mapa del Parque -> CLICK,seq_46
+2024-02-16 00:00:01,> CLICK,[link]  Careers -> CLICK,seq_47
+2024-02-16 00:00:02,> CLICK,[link]  View All Open Positions -> CLICK,seq_47
+2024-02-16 00:00:03,> CLICK,[span]  Filters -> CLICK,seq_47
+2024-02-16 00:00:04,> CLICK,[a]  Software Development -> CLICK,seq_47
+2024-02-16 00:00:05,> CLICK,[a]  Hybrid -> CLICK,seq_47
+2024-02-16 00:00:06,> CLICK,[i]   -> CLICK,seq_47
+2024-02-16 00:00:07,> CLICK,[button]  Apply Now -> CLICK,seq_47
+2024-02-16 00:00:08,> CLICK,[button]  NEXT -> CLICK,seq_47
+2024-02-17 00:00:01,> TYPE: vegetarian,"[textbox]  Search restaurants, cuisines, etc. -> TYPE: vegetarian",seq_48
+2024-02-17 00:00:02,> CLICK,[b]  Vegetarian -> CLICK,seq_48
+2024-02-17 00:00:03,> CLICK,"[button]  Fri., Apr. 14 -> CLICK",seq_48
+2024-02-17 00:00:04,> CLICK,"[button]  April 11, 2023. -> CLICK",seq_48
+2024-02-18 00:00:01,> TYPE: high tide,"[textbox]  Search restaurants, cuisines, etc. -> TYPE: high tide",seq_49
+2024-02-18 00:00:02,> CLICK,[heading]  High Tide -> CLICK,seq_49
+2024-02-18 00:00:03,> CLICK,"[div]  Fri., Apr. 21 -> CLICK",seq_49
+2024-02-18 00:00:04,> CLICK,"[button]  April 17, 2023. -> CLICK",seq_49
+2024-02-18 00:00:05,> SELECT: 2 Guests,[combobox]  Guests -> SELECT: 2 Guests,seq_49
+2024-02-18 00:00:06,> CLICK,[button]  Notify for Lunch -> CLICK,seq_49
+2024-02-19 00:00:01,> CLICK,[svg]   -> CLICK,seq_50
+2024-02-19 00:00:02,> CLICK,[button]  Los Angeles -> CLICK,seq_50
+2024-02-19 00:00:03,> TYPE: diner,"[textbox]  Search restaurants, cuisines, etc. -> TYPE: diner",seq_50
+2024-02-19 00:00:04,> CLICK,[heading]  Spiral Diner & Bakery - Fort Worth -> CLICK,seq_50
+2024-02-19 00:00:05,> SELECT: 3 Guests,[combobox]  Guests -> SELECT: 3 Guests,seq_50
+2024-02-19 00:00:06,> CLICK,[div]  Today -> CLICK,seq_50
+2024-02-19 00:00:07,> CLICK,"[button]  March 10, 2023. -> CLICK",seq_50
+2024-02-19 00:00:08,> CLICK,[button]  9:00 PM Dining Room -> CLICK,seq_50
+2024-02-20 00:00:01,> CLICK,[link]  Model S -> CLICK,seq_51
+2024-02-20 00:00:02,> CLICK,[link]  View Inventory -> CLICK,seq_51
+2024-02-20 00:00:03,> CLICK,[radio]  Used -> CLICK,seq_51
+2024-02-20 00:00:04,> CLICK,[image]   -> CLICK,seq_51
+2024-02-21 00:00:01,> CLICK,[svg]   -> CLICK,seq_52
+2024-02-21 00:00:02,> CLICK,[link]  Luxury Car Rental -> CLICK,seq_52
+2024-02-21 00:00:03,> TYPE: north las vegas,[label]  Pick-up location -> TYPE: north las vegas,seq_52
+2024-02-21 00:00:04,> CLICK,[div]  North Las Vegas -> CLICK,seq_52
+2024-02-21 00:00:05,> CLICK,"[div]  Thu, Apr 20 -> CLICK",seq_52
+2024-02-21 00:00:06,> CLICK,[checkbox]  29 April 2023 -> CLICK,seq_52
+2024-02-21 00:00:07,> CLICK,[checkbox]  29 April 2023 -> CLICK,seq_52
+2024-02-21 00:00:08,> SELECT: 6:00 PM,[combobox]  Pick up time -> SELECT: 6:00 PM,seq_52
+2024-02-21 00:00:09,> SELECT: 11:00 PM,[combobox]  Drop off time -> SELECT: 11:00 PM,seq_52
+2024-02-21 00:00:10,> CLICK,[div]  Search -> CLICK,seq_52
+2024-02-21 00:00:11,> CLICK,[div]  Premium -> CLICK,seq_52
+2024-02-21 00:00:12,> CLICK,[label]  Distance -> CLICK,seq_52
+2024-02-21 00:00:13,> CLICK,[svg]   -> CLICK,seq_52
+2024-02-21 00:00:14,> CLICK,[span]   -> CLICK,seq_52
+2024-02-21 00:00:15,> CLICK,[div]  View deal -> CLICK,seq_52
+2024-02-21 00:00:16,> CLICK,[span]  Go to book -> CLICK,seq_52
+2024-02-22 00:00:01,> TYPE: rock,[searchbox]  Search -> TYPE: rock,seq_53
+2024-02-22 00:00:02,> CLICK,[button]  Search -> CLICK,seq_53
+2024-02-22 00:00:03,> CLICK,[link]  Playlists -> CLICK,seq_53
+2024-02-22 00:00:04,> CLICK,[button]  Repost -> CLICK,seq_53
+2024-02-23 00:00:01,> TYPE: Chill,[searchbox]  Search -> TYPE: Chill,seq_54
+2024-02-23 00:00:02,> CLICK,[button]  Search -> CLICK,seq_54
+2024-02-23 00:00:03,> CLICK,[link]  People -> CLICK,seq_54
+2024-02-23 00:00:04,> CLICK,[button]  Follow -> CLICK,seq_54
+2024-02-24 00:00:01,> HOVER,[menuitem]  Finance -> HOVER,seq_55
+2024-02-24 00:00:02,> CLICK,[menuitem]  Loan Calculator -> CLICK,seq_55
+2024-02-24 00:00:03,> TYPE: 25000,[input]   -> TYPE: 25000,seq_55
+2024-02-24 00:00:04,> TYPE: 5000,[input]   -> TYPE: 5000,seq_55
+2024-02-24 00:00:05,> TYPE: 12,[input]   -> TYPE: 12,seq_55
+2024-02-24 00:00:06,> CLICK,[label]  48 mo -> CLICK,seq_55
+2024-02-25 00:00:01,> CLICK,[LabelText]  Certified Pre-Owned -> CLICK,seq_56
+2024-02-25 00:00:02,> SELECT: Lexus,[combobox]  Select Make -> SELECT: Lexus,seq_56
+2024-02-25 00:00:03,> SELECT: RX,[combobox]  Select Model -> SELECT: RX,seq_56
+2024-02-25 00:00:04,> TYPE: 90012,[textbox]  Zip -> TYPE: 90012,seq_56
+2024-02-25 00:00:05,> CLICK,[button]  Search -> CLICK,seq_56
+2024-02-25 00:00:06,> SELECT: 2017,[combobox]  Select Minimum Year -> SELECT: 2017,seq_56
+2024-02-25 00:00:07,> SELECT: 2017,[combobox]  Select Maximum Year -> SELECT: 2017,seq_56
+2024-02-25 00:00:08,> CLICK,[div]  White -> CLICK,seq_56
+2024-02-25 00:00:09,> SELECT: Lowest price first,[combobox]  Select Sort Order -> SELECT: Lowest price first,seq_56
+2024-02-26 00:00:01,> HOVER,[link]  WOMEN -> HOVER,seq_57
+2024-02-26 00:00:02,> CLICK,[tab]  Tops -> CLICK,seq_57
+2024-02-26 00:00:03,> CLICK,[link]  T-Shirts -> CLICK,seq_57
+2024-02-26 00:00:04,> CLICK,[heading]  Price -> CLICK,seq_57
+2024-02-26 00:00:05,> CLICK,[label]  $0-$10 -> CLICK,seq_57
+2024-02-26 00:00:06,> CLICK,[polygon]   -> CLICK,seq_57
+2024-02-26 00:00:07,> CLICK,[heading]  Mini Short-Sleeve T-Shirt -> CLICK,seq_57
+2024-02-26 00:00:08,> CLICK,[button]  ADD TO CART -> CLICK,seq_57
+2024-02-27 00:00:01,> CLICK,[link]  National Football League NFL -> CLICK,seq_58
+2024-02-27 00:00:02,> CLICK,[heading]  VIDEOS -> CLICK,seq_58
+2024-02-28 00:00:01,> CLICK,[img]   -> CLICK,seq_59
+2024-02-28 00:00:02,> CLICK,[img]  GameStop Digital Gift Cards -> CLICK,seq_59
+2024-02-28 00:00:03,> TYPE: Tim Stebee,[textbox]  Recipient Name -> TYPE: Tim Stebee,seq_59
+2024-02-28 00:00:04,> TYPE: scisoorbros@gmail.com,[textbox]  Recipient Email -> TYPE: scisoorbros@gmail.com,seq_59
+2024-02-28 00:00:05,> TYPE: Jeerimiah Waton,[textbox]  Sender Name -> TYPE: Jeerimiah Waton,seq_59
+2024-02-28 00:00:06,> CLICK,[button]  ADD TO CART -> CLICK,seq_59
+2024-02-29 00:00:01,> TYPE: kinect camera,"[searchbox]  Search games, consoles & more -> TYPE: kinect camera",seq_60
+2024-02-29 00:00:02,> CLICK,[button]  Search -> CLICK,seq_60
+2024-02-29 00:00:03,> CLICK,[img]   -> CLICK,seq_60
+2024-03-01 00:00:01,> CLICK,[button]  Main Menu -> CLICK,seq_61
+2024-03-01 00:00:02,> CLICK,[button]  Video Games chevron_right -> CLICK,seq_61
+2024-03-01 00:00:03,> CLICK,[button]  Shop all -> CLICK,seq_61
+2024-03-01 00:00:04,> CLICK,[link]  Filter -> CLICK,seq_61
+2024-03-01 00:00:05,> CLICK,[button]  Genre -> CLICK,seq_61
+2024-03-01 00:00:06,> CLICK,[link]  View More -> CLICK,seq_61
+2024-03-01 00:00:07,> CLICK,[checkbox]  RPG RPG -> CLICK,seq_61
+2024-03-01 00:00:08,> CLICK,[button]  Done -> CLICK,seq_61
+2024-03-02 00:00:01,> HOVER,[link]  Auto Services -> HOVER,seq_62
+2024-03-02 00:00:02,> CLICK,[span]  Parking -> CLICK,seq_62
+2024-03-02 00:00:03,> TYPE: CALIFORNIA,[textbox]  Near -> TYPE: CALIFORNIA,seq_62
+2024-03-02 00:00:04,> CLICK,[span]  California -> CLICK,seq_62
+2024-03-02 00:00:05,> CLICK,[button]  Limos -> CLICK,seq_62
+2024-03-02 00:00:06,> CLICK,[checkbox]   Offers Military Discount -> CLICK,seq_62
+2024-03-02 00:00:07,> CLICK,[checkbox]   Free Wi-Fi -> CLICK,seq_62
+2024-03-03 00:00:01,> CLICK,[button]  Explore (current) -> CLICK,seq_63
+2024-03-03 00:00:02,> CLICK,[link]  Africa 29 -> CLICK,seq_63
+2024-03-03 00:00:03,> CLICK,[div]  Durban -> CLICK,seq_63
+2024-03-03 00:00:04,> CLICK,[link]  Discover -> CLICK,seq_63
+2024-03-03 00:00:05,> TYPE: doha,[textbox]  From Autocomplete selection. Enter your place. -> TYPE: doha,seq_63
+2024-03-03 00:00:06,> CLICK,[strong]  Doha -> CLICK,seq_63
+2024-03-03 00:00:07,> CLICK,[textbox]  Depart date please enter date in the format dd spa... -> CLICK,seq_63
+2024-03-03 00:00:08,> CLICK,[gridcell]  28 May 2023 -> CLICK,seq_63
+2024-03-03 00:00:09,> CLICK,[button]  Continue -> CLICK,seq_63
+2024-03-03 00:00:10,> CLICK,[textbox]  Passengers / Class -> CLICK,seq_63
+2024-03-03 00:00:11,> CLICK,[button]  Increase number of infant passengers -> CLICK,seq_63
+2024-03-03 00:00:12,> CLICK,[button]  Confirm -> CLICK,seq_63
+2024-03-03 00:00:13,> CLICK,[button]  Show flights -> CLICK,seq_63
+2024-03-03 00:00:14,> CLICK,"[heading]  QAR 4,980 -> CLICK",seq_63
+2024-03-03 00:00:15,> CLICK,[button]  Select fare -> CLICK,seq_63
+2024-03-04 00:00:01,> CLICK,[textbox]  Search IMDb -> CLICK,seq_64
+2024-03-04 00:00:02,> TYPE: The Flash,[textbox]  Search IMDb -> TYPE: The Flash,seq_64
+2024-03-04 00:00:03,> CLICK,[div]  The Flash -> CLICK,seq_64
+2024-03-04 00:00:04,> CLICK,[generic]  Watch Official Trailer -> CLICK,seq_64
+2024-03-05 00:00:01,> CLICK,[heading]  Check-in -> CLICK,seq_65
+2024-03-05 00:00:02,> TYPE: 123456,[textbox]  Confirmation or ticket number* -> TYPE: 123456,seq_65
+2024-03-05 00:00:03,> TYPE: John,[textbox]  Last name* -> TYPE: John,seq_65
+2024-03-05 00:00:04,> CLICK,[button]  Search -> CLICK,seq_65
+2024-03-06 00:00:01,> CLICK,[div]  Search for events -> CLICK,seq_66
+2024-03-06 00:00:02,> TYPE: pet festival,[textbox]  Search events -> TYPE: pet festival,seq_66
+2024-03-06 00:00:03,> CLICK,[generic]  Run Search -> CLICK,seq_66
+2024-03-06 00:00:04,> CLICK,[label]   -> CLICK,seq_66
+2024-03-06 00:00:05,> CLICK,[label]   -> CLICK,seq_66
+2024-03-06 00:00:06,> CLICK,[label]   -> CLICK,seq_66
+2024-03-06 00:00:07,> TYPE: portland,[combobox]  autocomplete -> TYPE: portland,seq_66
+2024-03-06 00:00:08,> CLICK,[div]  Portland -> CLICK,seq_66
+2024-03-06 00:00:09,> CLICK,[span]  Pick a date... -> CLICK,seq_66
+2024-03-06 00:00:10,> CLICK,[button]  15 -> CLICK,seq_66
+2024-03-06 00:00:11,> CLICK,[button]  16 -> CLICK,seq_66
+2024-03-06 00:00:12,> CLICK,[div]  Petaluma Music Festival -> CLICK,seq_66
+2024-03-06 00:00:13,> CLICK,[button]  Get tickets -> CLICK,seq_66
+2024-03-06 00:00:14,> SELECT: 2,[listbox]  Select quantity: General Admission price: $60.00 -> SELECT: 2,seq_66
+2024-03-06 00:00:15,> CLICK,[button]  Check out -> CLICK,seq_66
+2024-03-07 00:00:01,> CLICK,[link]  Sports & Fitness -> CLICK,seq_67
+2024-03-07 00:00:02,> CLICK,[svg]   -> CLICK,seq_67
+2024-03-07 00:00:03,> CLICK,[div]  This weekend -> CLICK,seq_67
+2024-03-08 00:00:01,> CLICK,[tab]  Things to do -> CLICK,seq_68
+2024-03-08 00:00:02,> TYPE: singapore,[textbox]  Things to do in -> TYPE: singapore,seq_68
+2024-03-08 00:00:03,> CLICK,[button]  Singapore Singapore -> CLICK,seq_68
+2024-03-08 00:00:04,> CLICK,"[button]  From April 5, 2023 -> CLICK",seq_68
+2024-03-08 00:00:05,> CLICK,"[button]  Apr 2, 2023 -> CLICK",seq_68
+2024-03-08 00:00:06,> CLICK,"[button]  Apr 2, 2023 selected, current check in date. -> CLICK",seq_68
+2024-03-08 00:00:07,> CLICK,[button]  Done : (Save changes and close the date picker.) -> CLICK,seq_68
+2024-03-08 00:00:08,> CLICK,[button]  Search -> CLICK,seq_68
+2024-03-08 00:00:09,> CLICK,[checkbox]  Free cancellation -> CLICK,seq_68
+2024-03-08 00:00:10,> CLICK,[checkbox]  Family friendly -> CLICK,seq_68
+2024-03-09 00:00:01,> CLICK,[button]  Check my bus -> CLICK,seq_69
+2024-03-09 00:00:02,> CLICK,[link]  Track my bus -> CLICK,seq_69
+2024-03-09 00:00:03,> TYPE: Abbotsford,[combobox]  From -> TYPE: Abbotsford,seq_69
+2024-03-09 00:00:04,> CLICK,[div]  Abbotsford -> CLICK,seq_69
+2024-03-09 00:00:05,> CLICK,[button]  Find my bus -> CLICK,seq_69
+2024-03-09 00:00:06,> CLICK,[div]  WCL3 -> CLICK,seq_69
+2024-03-10 00:00:01,> CLICK,[link]  Camping -> CLICK,seq_70
+2024-03-10 00:00:02,> CLICK,[menuitem]  View All -> CLICK,seq_70
+2024-03-10 00:00:03,> CLICK,[div]  Type -> CLICK,seq_70
+2024-03-10 00:00:04,> CLICK,[label]  Dome -> CLICK,seq_70
+2024-03-10 00:00:05,> CLICK,[link]  Bass Pro Shops Eclipse 2-Person 5x7 Dome Tent -> CLICK,seq_70
+2024-03-10 00:00:06,> CLICK,[button]  ADD TO CART -> CLICK,seq_70
+2024-03-11 00:00:01,> CLICK,[link]  San Francisco Airport -> CLICK,seq_71
+2024-03-11 00:00:02,> CLICK,"[div]  Fri, Mar 31 -> CLICK",seq_71
+2024-03-11 00:00:03,> CLICK,[checkbox]  29 March 2023 -> CLICK,seq_71
+2024-03-11 00:00:04,> CLICK,[div]  Search -> CLICK,seq_71
+2024-03-11 00:00:05,> CLICK,[label]  Price (lowest first) -> CLICK,seq_71
+2024-03-12 00:00:01,> CLICK,[label]  Pick-up location -> CLICK,seq_72
+2024-03-12 00:00:02,> TYPE: London,[textbox]  Pick-up location -> TYPE: London,seq_72
+2024-03-12 00:00:03,> CLICK,[div]  London Heathrow Airport (LHR) -> CLICK,seq_72
+2024-03-12 00:00:04,> CLICK,[div]  Search -> CLICK,seq_72
+2024-03-12 00:00:05,> CLICK,[img]   -> CLICK,seq_72
+2024-03-13 00:00:01,> CLICK,[button]  Los Angeles -> CLICK,seq_73
+2024-03-13 00:00:02,> CLICK,[link]  La Cha Cha Cha -> CLICK,seq_73
+2024-03-13 00:00:03,> CLICK,[div]  Today -> CLICK,seq_73
+2024-03-13 00:00:04,> CLICK,"[button]  April 7, 2023. -> CLICK",seq_73
+2024-03-13 00:00:05,> SELECT: 3 Guests,[combobox]  Guests -> SELECT: 3 Guests,seq_73
+2024-03-13 00:00:06,> CLICK,[button]  5:00 PM Outdoor Table -> CLICK,seq_73
+2024-03-13 00:00:07,> CLICK,[button]  Reserve Now -> CLICK,seq_73
+2024-03-14 00:00:01,> CLICK,[button]  Location Atlanta -> CLICK,seq_74
+2024-03-14 00:00:02,> CLICK,[button]  Seattle -> CLICK,seq_74
+2024-03-14 00:00:03,> CLICK,"[textbox]  Search restaurants, cuisines, etc. -> CLICK",seq_74
+2024-03-14 00:00:04,> CLICK,[link]  Staff Picks -> CLICK,seq_74
+2024-03-15 00:00:01,> TYPE: Star Wars,[textbox]  Search IMDb -> TYPE: Star Wars,seq_75
+2024-03-15 00:00:02,> CLICK,[button]  Submit Search -> CLICK,seq_75
+2024-03-15 00:00:03,> CLICK,[button]  Star Wars: Episode IV - A New Hope -> CLICK,seq_75
+2024-03-15 00:00:04,> CLICK,[generic]  Watch Original Teaser Trailer -> CLICK,seq_75
+2024-03-16 00:00:01,> CLICK,[path]   -> CLICK,seq_76
+2024-03-16 00:00:02,> CLICK,[span]  Most Popular TV Shows -> CLICK,seq_76
+2024-03-16 00:00:03,> CLICK,[link]  Horror -> CLICK,seq_76
+2024-03-16 00:00:04,> CLICK,[generic]  Click to add to watchlist -> CLICK,seq_76
+2024-03-17 00:00:01,> CLICK,[button]  Open Navigation Drawer -> CLICK,seq_77
+2024-03-17 00:00:02,> CLICK,[span]  Oscars -> CLICK,seq_77
+2024-03-17 00:00:03,> CLICK,[link]  VIDEO -> CLICK,seq_77
+2024-03-18 00:00:01,> TYPE: creed III,[textbox]  Search IMDb -> TYPE: creed III,seq_78
+2024-03-18 00:00:02,> CLICK,[div]  Creed III -> CLICK,seq_78
+2024-03-18 00:00:03,> CLICK,[span]  Critic reviews -> CLICK,seq_78
+2024-03-19 00:00:01,> CLICK,[path]   -> CLICK,seq_79
+2024-03-19 00:00:02,> CLICK,[span]  Browse Movies by Genre -> CLICK,seq_79
+2024-03-19 00:00:03,> CLICK,[link]  Superhero -> CLICK,seq_79
+2024-03-19 00:00:04,> CLICK,[checkbox]  Superhero Sci Fi (745) -> CLICK,seq_79
+2024-03-19 00:00:05,> CLICK,[checkbox]  Based On Comic Book (226) -> CLICK,seq_79
+2024-03-19 00:00:06,> CLICK,[strong]  IMDb Rating -> CLICK,seq_79
+2024-03-19 00:00:07,> SELECT: 7.0,[group]  IMDb user rating (average) -> SELECT: 7.0,seq_79
+2024-03-19 00:00:08,> SELECT: 9.0,[group]  IMDb user rating (average) -> SELECT: 9.0,seq_79
+2024-03-19 00:00:09,> CLICK,[strong]  Refine -> CLICK,seq_79
+2024-03-19 00:00:10,> SELECT: Number of Votes,[select]  Popularity -> SELECT: Number of Votes,seq_79
+2024-03-19 00:00:11,> CLICK,[generic]  Compact view -> CLICK,seq_79
+2024-03-19 00:00:12,> CLICK,[generic]  Click to add to watchlist -> CLICK,seq_79
+2024-03-19 00:00:13,> CLICK,[generic]  Click to add to watchlist -> CLICK,seq_79
+2024-03-19 00:00:14,> CLICK,[generic]  Click to add to watchlist -> CLICK,seq_79
+2024-03-20 00:00:01,> CLICK,[link]  Search for hotels -> CLICK,seq_80
+2024-03-20 00:00:02,> CLICK,"[textbox]  Enter a city, hotel, airport, address or landmark -> CLICK",seq_80
+2024-03-20 00:00:03,> TYPE: Las Vegas,"[textbox]  Enter a city, hotel, airport, address or landmark -> TYPE: Las Vegas",seq_80
+2024-03-20 00:00:04,> CLICK,"[span]  Las Vegas, Nevada, United States -> CLICK",seq_80
+2024-03-20 00:00:05,> CLICK,[svg]   -> CLICK,seq_80
+2024-03-20 00:00:06,> CLICK,[checkbox]  Free airport shuttle -> CLICK,seq_80
+2024-03-21 00:00:01,> CLICK,[polyline]   -> CLICK,seq_81
+2024-03-21 00:00:02,> CLICK,"[link]  Cars for sale near Tampa, FL -> CLICK",seq_81
+2024-03-21 00:00:03,> CLICK,[checkbox]  Third-Party Certified (343) -> CLICK,seq_81
+2024-03-21 00:00:04,> CLICK,[span]  Drive Type -> CLICK,seq_81
+2024-03-21 00:00:05,> CLICK,[checkbox]  Front Wheel Drive (147) -> CLICK,seq_81
+2024-03-21 00:00:06,> CLICK,[span]  Exterior Color -> CLICK,seq_81
+2024-03-21 00:00:07,> CLICK,[div]   -> CLICK,seq_81
+2024-03-21 00:00:08,> CLICK,[checkbox]  Online Paperwork (4) -> CLICK,seq_81
+2024-03-21 00:00:09,> CLICK,[span]  Vehicle History -> CLICK,seq_81
+2024-03-21 00:00:10,> CLICK,[checkbox]  No Accidents (4) -> CLICK,seq_81
+2024-03-21 00:00:11, Lowest,[combobox]  Sort By: -> SELECT: Price - Lowest,seq_81
+2024-03-21 00:00:12,> CLICK,[link]  Confirm Availability for Used 2019 Buick Encore Pr... -> CLICK,seq_81
+2024-03-21 00:00:13,> TYPE: James,[textbox]  First Name -> TYPE: James,seq_81
+2024-03-21 00:00:14,> TYPE: Smith,[textbox]  Last Name -> TYPE: Smith,seq_81
+2024-03-21 00:00:15,> CLICK,[button]  Send Email -> CLICK,seq_81
+2024-03-22 00:00:01,> CLICK,[button]  Browse the Parks Below -> CLICK,seq_82
+2024-03-22 00:00:02,> CLICK,[span]  Six Flags Fiesta Texas -> CLICK,seq_82
+2024-03-22 00:00:03,> CLICK,[button]  Go! -> CLICK,seq_82
+2024-03-22 00:00:04,> CLICK,[link]  Events  -> CLICK,seq_82
+2024-03-22 00:00:05,> CLICK,[link]  See all events  -> CLICK,seq_82
+2024-03-23 00:00:01,> CLICK,[button]  Browse the Parks Below -> CLICK,seq_83
+2024-03-23 00:00:02,> CLICK,[span]  Six Flags Darien Lake -> CLICK,seq_83
+2024-03-23 00:00:03,> CLICK,[button]  Go! -> CLICK,seq_83
+2024-03-23 00:00:04,> CLICK,[link]  Rides & Experiences  -> CLICK,seq_83
+2024-03-23 00:00:05,> CLICK,[link]  Shops & Gifts -> CLICK,seq_83
+2024-03-23 00:00:06,> SELECT: Gifts,[select]  All Shops -> SELECT: Gifts,seq_83
+2024-03-24 00:00:01,> CLICK,[link]  Music -> CLICK,seq_84
+2024-03-24 00:00:02,> CLICK,[link]  jazz -> CLICK,seq_84
+2024-03-24 00:00:03,> CLICK,[link]  More tracks -> CLICK,seq_84
+2024-03-25 00:00:01,> CLICK,[button]  Departments  -> CLICK,seq_85
+2024-03-25 00:00:02,> CLICK,[button]  Paint -> CLICK,seq_85
+2024-03-25 00:00:03,> CLICK,[link]  Painting Tools -> CLICK,seq_85
+2024-03-25 00:00:04,> TYPE: 44240,[button]  43229  -> TYPE: 44240,seq_85
+2024-03-25 00:00:05,> CLICK,[button]  UPDATE -> CLICK,seq_85
+2024-03-25 00:00:06,> CLICK,[checkbox]  Pickup at Store Eligible (86) -> CLICK,seq_85
+2024-03-25 00:00:07,> CLICK,[checkbox]  Multi-Purpose Tool (11) -> CLICK,seq_85
+2024-03-25 00:00:08,> CLICK,[checkbox]  Red Devil (2) -> CLICK,seq_85
+2024-03-25 00:00:09,> CLICK,[label]  Add -> CLICK,seq_85
+2024-03-25 00:00:10,> SELECT: Wish List,[combobox]  Select a list -> SELECT: Wish List,seq_85
+2024-03-25 00:00:11,> CLICK,[link]  VIEW YOUR LIST -> CLICK,seq_85
+2024-03-26 00:00:01,> HOVER,[button]  Departments  -> HOVER,seq_86
+2024-03-26 00:00:02,> HOVER,[button]  Electrical -> HOVER,seq_86
+2024-03-26 00:00:03,> CLICK,[link]  Smart Home -> CLICK,seq_86
+2024-03-26 00:00:04,> CLICK,[link]  Smart Lighting -> CLICK,seq_86
+2024-03-26 00:00:05,> CLICK,[button]  Indoor Lighting (7) -> CLICK,seq_86
+2024-03-26 00:00:06,> CLICK,[checkbox]  Strip Light (3) -> CLICK,seq_86
+2024-03-26 00:00:07,> CLICK,[button]  Sort By: Best Match  -> CLICK,seq_86
+2024-03-26 00:00:08,> CLICK,[button]  Price Low to High -> CLICK,seq_86
+2024-03-26 00:00:09,> CLICK,[button]  ADD TO CART -> CLICK,seq_86
+2024-03-26 00:00:10,> CLICK,[button]  VIEW CART -> CLICK,seq_86
+2024-03-26 00:00:11,> CLICK,[label]  Select -> CLICK,seq_86
+2024-03-27 00:00:01,> HOVER,[link]  BUCKEYE.FOOBAR -> HOVER,seq_87
+2024-03-27 00:00:02,> CLICK,[link]  GAMES -> CLICK,seq_87
+2024-03-27 00:00:03,> CLICK,[link]  Recently Played (0) -> CLICK,seq_87
+2024-03-28 00:00:01,> HOVER,[link]  New & Noteworthy -> HOVER,seq_88
+2024-03-28 00:00:02,> CLICK,[link]  Most Played -> CLICK,seq_88
+2024-03-28 00:00:03,> CLICK,[generic]  By Current Players -> CLICK,seq_88
+2024-03-28 00:00:04,> CLICK,[div]  By Daily Players -> CLICK,seq_88
+2024-03-29 00:00:01,> HOVER,[link]  BUCKEYE.FOOBAR -> HOVER,seq_89
+2024-03-29 00:00:02,> CLICK,[link]  GAMES -> CLICK,seq_89
+2024-03-29 00:00:03,> CLICK,[link]  Reviews -> CLICK,seq_89
+2024-03-30 00:00:01,> HOVER,[link]  Categories -> HOVER,seq_90
+2024-03-30 00:00:02,> CLICK,[link]  Simulation -> CLICK,seq_90
+2024-03-30 00:00:03,> CLICK,[link]  CITIES: SKYLINES -> CLICK,seq_90
+2024-03-30 00:00:04,> CLICK,[link]  Bundle info -> CLICK,seq_90
+2024-03-30 00:00:05,> CLICK,[link]  Add to Cart -> CLICK,seq_90
+2024-03-30 00:00:06,> CLICK,[link]  Purchase for myself -> CLICK,seq_90
+2024-03-31 00:00:01,> CLICK,[button]  DESTINATIONS -> CLICK,seq_91
+2024-03-31 00:00:02,> CLICK,[link]   SEE ALL ROUTES  -> CLICK,seq_91
+2024-03-31 00:00:03,> CLICK,"[link]  AMTRAK NATIONAL ROUTE MAP (PDF, 3MB) -> CLICK",seq_91
+2024-04-01 00:00:01,> CLICK,[textbox]  From -> CLICK,seq_92
+2024-04-01 00:00:02,> CLICK,"[option]  New York, NY - Moynihan Train Hall (NYP) -> CLICK",seq_92
+2024-04-01 00:00:03,> CLICK,[textbox]  To -> CLICK,seq_92
+2024-04-01 00:00:04,> CLICK,"[option]  Washington, DC - Union Station (WAS) -> CLICK",seq_92
+2024-04-01 00:00:05,> CLICK,[textbox]  Depart Date -> CLICK,seq_92
+2024-04-01 00:00:06,> CLICK,"[gridcell]  Tuesday, April 18, 2023 -> CLICK",seq_92
+2024-04-01 00:00:07,> CLICK,[img]  Add travelers and discounts -> CLICK,seq_92
+2024-04-01 00:00:08,> CLICK,[button]  + -> CLICK,seq_92
+2024-04-01 00:00:09,> CLICK,[button]  Apply Filters -> CLICK,seq_92
+2024-04-01 00:00:10,> CLICK,[checkbox]  Passenger with Disability or Assistance Needed? -> CLICK,seq_92
+2024-04-01 00:00:11,> CLICK,[button]  FIND TRAINS -> CLICK,seq_92
+2024-04-02 00:00:01,> CLICK,[link]  Trade In -> CLICK,seq_93
+2024-04-02 00:00:02,> CLICK,[link]  Trade in by mail -> CLICK,seq_93
+2024-04-02 00:00:03,> TYPE: Nemo Front Porch 2P Tent,[combobox]  search input -> TYPE: Nemo Front Porch 2P Tent,seq_93
+2024-04-02 00:00:04,> CLICK,[img]  search icon -> CLICK,seq_93
+2024-04-02 00:00:05,> CLICK,[button]  Trade in -> CLICK,seq_93
+2024-04-02 00:00:06,> CLICK,[link]  Complete trade-in -> CLICK,seq_93
+2024-04-02 00:00:07,> CLICK,[button]  Verify membership to continue -> CLICK,seq_93
+2024-04-02 00:00:08,> TYPE: Joe,[input]   -> TYPE: Joe,seq_93
+2024-04-02 00:00:09,> TYPE: Bloggs,[input]   -> TYPE: Bloggs,seq_93
+2024-04-02 00:00:10,> TYPE: 123456789,[input]   -> TYPE: 123456789,seq_93
+2024-04-02 00:00:11,> CLICK,[button]  Proceed to checkout -> CLICK,seq_93
+2024-04-03 00:00:01,> HOVER,[button]  Camp & Hike -> HOVER,seq_94
+2024-04-03 00:00:02,> CLICK,[link]  Women's -> CLICK,seq_94
+2024-04-03 00:00:03,> CLICK,[link]  add filter: 6(220) -> CLICK,seq_94
+2024-04-03 00:00:04,> CLICK,[link]  add filter: Waterproof(171) -> CLICK,seq_94
+2024-04-03 00:00:05,> CLICK,[link]  add filter: rating of 4-to-5 stars 99 -> CLICK,seq_94
+2024-04-04 00:00:01,> CLICK,[img]  movie poster for Creed III -> CLICK,seq_95
+2024-04-04 00:00:02,> CLICK,[link]  get tickets for Creed III -> CLICK,seq_95
+2024-04-04 00:00:03,> SELECT: Change Location...,[select]  AMC Columbus 10 -> SELECT: Change Location...,seq_95
+2024-04-04 00:00:04,> TYPE: 90028,"[textbox]  Search by City, Zip or Theatre -> TYPE: 90028",seq_95
+2024-04-04 00:00:05,> CLICK,[generic]  Submit Search -> CLICK,seq_95
+2024-04-05 00:00:01,> CLICK,[link]  Visit the Food & Drinks page -> CLICK,seq_96
+2024-04-05 00:00:02,> CLICK,[link]  Explore Menu -> CLICK,seq_96
+2024-04-05 00:00:03,> CLICK,[link]  View Full Menu -> CLICK,seq_96
+2024-04-06 00:00:01,> CLICK,[link]  Visit the Our Theatres page -> CLICK,seq_97
+2024-04-06 00:00:02,> CLICK,[link]  Find a Theatre -> CLICK,seq_97
+2024-04-06 00:00:03,> TYPE: 10001,[textbox]  Find A Theatre -> TYPE: 10001,seq_97
+2024-04-06 00:00:04,> CLICK,[generic]  Submit Search -> CLICK,seq_97
+2024-04-06 00:00:05,> CLICK,[link]  Showtimes  -> CLICK,seq_97
+2024-04-07 00:00:01,> HOVER,[link]  Visit the Food & Drinks page -> HOVER,seq_98
+2024-04-07 00:00:02,> CLICK,[link]  Order Food & Drinks -> CLICK,seq_98
+2024-04-07 00:00:03,> SELECT: AMC Grove City 14,[select]  AMC Columbus 10 -> SELECT: AMC Grove City 14,seq_98
+2024-04-07 00:00:04,> CLICK,[button]  Order Now -> CLICK,seq_98
+2024-04-07 00:00:05,> CLICK,[img]   -> CLICK,seq_98
+2024-04-07 00:00:06,> CLICK,[button]  Select -> CLICK,seq_98
+2024-04-07 00:00:07,> CLICK,[div]   -> CLICK,seq_98
+2024-04-07 00:00:08,> CLICK,[button]  Add to Order -> CLICK,seq_98
+2024-04-08 00:00:01,> HOVER,[link]  Visit the On Demand page -> HOVER,seq_99
+2024-04-08 00:00:02,> CLICK,[link]  Now Trending -> CLICK,seq_99
+2024-04-09 00:00:01,> CLICK,[link]  Visit the Our Theatres page -> CLICK,seq_100
+2024-04-09 00:00:02,> TYPE: 10001,[textbox]  Find A Theatre -> TYPE: 10001,seq_100
+2024-04-09 00:00:03,> CLICK,[generic]  Submit Search -> CLICK,seq_100

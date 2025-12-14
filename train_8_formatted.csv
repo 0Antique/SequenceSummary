@@ -1,0 +1,806 @@
+timestamp,event_type,details,sequence_id
+2024-01-01 00:00:01,> CLICK,[link]  Players  -> CLICK,seq_1
+2024-01-01 00:00:02,> CLICK,[link]  Tom Brady -> CLICK,seq_1
+2024-01-01 00:00:03,> CLICK,[link]  STATS -> CLICK,seq_1
+2024-01-01 00:00:04,> CLICK,[link]  CAREER -> CLICK,seq_1
+2024-01-01 00:00:05,> CLICK,[columnheader]  TD -> CLICK,seq_1
+2024-01-02 00:00:01,> TYPE: Leeds,"[combobox]  Departure station, none selected. Select a station... -> TYPE: Leeds",seq_2
+2024-01-02 00:00:02,> CLICK,[span]  Leeds -> CLICK,seq_2
+2024-01-02 00:00:03,> CLICK,[span]  Sheffield -> CLICK,seq_2
+2024-01-02 00:00:04,> CLICK,[textbox]  Date use format: 24-Mar-23 -> CLICK,seq_2
+2024-01-02 00:00:05,> CLICK,[link]  25 -> CLICK,seq_2
+2024-01-02 00:00:06,> SELECT: 08,[listbox]  hour -> SELECT: 08,seq_2
+2024-01-02 00:00:07,> CLICK,[group]  RETURN -> CLICK,seq_2
+2024-01-02 00:00:08,> CLICK,[link]  25 -> CLICK,seq_2
+2024-01-02 00:00:09,> SELECT: 23,[listbox]  hour -> SELECT: 23,seq_2
+2024-01-02 00:00:10,> CLICK,[svg]   -> CLICK,seq_2
+2024-01-02 00:00:11,> SELECT: 2,[listbox]  select children -> SELECT: 2,seq_2
+2024-01-02 00:00:12,15,[listbox]  select child age -> SELECT: 5-15,seq_2
+2024-01-02 00:00:13,> CLICK,[button]  Done -> CLICK,seq_2
+2024-01-02 00:00:14,> CLICK,[button]  Get cheapest tickets -> CLICK,seq_2
+2024-01-02 00:00:15,> CLICK,"[button]  OK, got it -> CLICK",seq_2
+2024-01-03 00:00:01,> TYPE: edinburg,"[combobox]  Departure station, London selected.  -> TYPE: edinburg",seq_3
+2024-01-03 00:00:02,> CLICK,[span]  Edinburgh (Waverley) -> CLICK,seq_3
+2024-01-03 00:00:03,> TYPE: manchester,"[combobox]  Arrival station, Sheffield selected.  -> TYPE: manchester",seq_3
+2024-01-03 00:00:04,> CLICK,[span]  Manchester -> CLICK,seq_3
+2024-01-03 00:00:05,> CLICK,[radio]  Return -> CLICK,seq_3
+2024-01-03 00:00:06,> CLICK,[textbox]  Date use format: 29-Mar-23 -> CLICK,seq_3
+2024-01-03 00:00:07,> CLICK,[link]  2 -> CLICK,seq_3
+2024-01-03 00:00:08,> CLICK,[textbox]  Date use format:  -> CLICK,seq_3
+2024-01-03 00:00:09,> CLICK,[link]  2 -> CLICK,seq_3
+2024-01-03 00:00:10,> SELECT: 17,[listbox]  hour -> SELECT: 17,seq_3
+2024-01-03 00:00:11,> CLICK,[button]  Get cheapest tickets -> CLICK,seq_3
+2024-01-03 00:00:12,> CLICK,[span]  Continue -> CLICK,seq_3
+2024-01-04 00:00:01,> CLICK,[button]  Plan -> CLICK,seq_4
+2024-01-04 00:00:02,> CLICK,[link]  Try Somewhere New -> CLICK,seq_4
+2024-01-04 00:00:03,> CLICK,[link]  Destinations -> CLICK,seq_4
+2024-01-04 00:00:04,> CLICK,[label]  Armenia -> CLICK,seq_4
+2024-01-04 00:00:05,> CLICK,[label]  Austria -> CLICK,seq_4
+2024-01-04 00:00:06,> CLICK,[label]  Belgium -> CLICK,seq_4
+2024-01-04 00:00:07,> CLICK,[label]  Bulgaria -> CLICK,seq_4
+2024-01-04 00:00:08,> CLICK,[div]  Popular -> CLICK,seq_4
+2024-01-04 00:00:09,> CLICK,[div]  A - Z -> CLICK,seq_4
+2024-01-04 00:00:10,> CLICK,[div]  Find destination -> CLICK,seq_4
+2024-01-05 00:00:01,> CLICK,[img]  GIFT CARDS -> CLICK,seq_5
+2024-01-05 00:00:02,> CLICK,[img]  Happy Birthday -> CLICK,seq_5
+2024-01-05 00:00:03,> CLICK,[button]  EUR -> CLICK,seq_5
+2024-01-05 00:00:04,> CLICK,[div]  GBP -> CLICK,seq_5
+2024-01-05 00:00:05,> CLICK,[button]   -> CLICK,seq_5
+2024-01-05 00:00:06,> CLICK,[div]  £ -> CLICK,seq_5
+2024-01-05 00:00:07,> CLICK,[div]   -> CLICK,seq_5
+2024-01-05 00:00:08,> TYPE: Happy Birthday Love,[textarea]   -> TYPE: Happy Birthday Love,seq_5
+2024-01-05 00:00:09,> TYPE: Stuart Bloom,[input]   -> TYPE: Stuart Bloom,seq_5
+2024-01-05 00:00:10,> TYPE: Denise,[input]   -> TYPE: Denise,seq_5
+2024-01-05 00:00:11,> TYPE: Bloom,[input]   -> TYPE: Bloom,seq_5
+2024-01-05 00:00:12,> TYPE: denise.bloom@bbt.com,[input]   -> TYPE: denise.bloom@bbt.com,seq_5
+2024-01-05 00:00:13,> TYPE: Debbi,[input]   -> TYPE: Debbi,seq_5
+2024-01-05 00:00:14,> TYPE: Wolowitz,[input]   -> TYPE: Wolowitz,seq_5
+2024-01-05 00:00:15,> TYPE: debbi.wo@bbt.com,[input]   -> TYPE: debbi.wo@bbt.com,seq_5
+2024-01-05 00:00:16,> CLICK,[div]   -> CLICK,seq_5
+2024-01-05 00:00:17,> CLICK,[button]  Go to checkout -> CLICK,seq_5
+2024-01-06 00:00:01,> TYPE: mens hiking shoes,[textbox]  Search by keyword or web id -> TYPE: mens hiking shoes,seq_6
+2024-01-06 00:00:02,> CLICK,[input]   -> CLICK,seq_6
+2024-01-06 00:00:03,> CLICK,[div]  Price -> CLICK,seq_6
+2024-01-06 00:00:04,> CLICK,[link]  $10 to $25 (3) -> CLICK,seq_6
+2024-01-06 00:00:05,> CLICK,[link]  $25 to $50 (18) -> CLICK,seq_6
+2024-01-06 00:00:06,> CLICK,[link]  $50 to $100 (146) -> CLICK,seq_6
+2024-01-06 00:00:07,> CLICK,[div]  Size -> CLICK,seq_6
+2024-01-06 00:00:08,> CLICK,[link]  10 (131) -> CLICK,seq_6
+2024-01-06 00:00:09,> CLICK,[link]  Sort by: Featured -> CLICK,seq_6
+2024-01-06 00:00:10,> CLICK,[link]  Percent Off -> CLICK,seq_6
+2024-01-06 00:00:11,> CLICK,[img]  Eddie Bauer Canyon Men's Waterproof Hiking Shoes -> CLICK,seq_6
+2024-01-07 00:00:01,> CLICK,[link]  Careers  -> CLICK,seq_7
+2024-01-07 00:00:02,> CLICK,[link]  Open Jobs -> CLICK,seq_7
+2024-01-07 00:00:03,> CLICK,[span]   -> CLICK,seq_7
+2024-01-07 00:00:04,> CLICK,[button]  Country -> CLICK,seq_7
+2024-01-07 00:00:05,> CLICK,[span]   -> CLICK,seq_7
+2024-01-07 00:00:06,> CLICK,[button]  State / Province -> CLICK,seq_7
+2024-01-07 00:00:07,> CLICK,[span]   -> CLICK,seq_7
+2024-01-07 00:00:08,> CLICK,[button]  City -> CLICK,seq_7
+2024-01-07 00:00:09,> CLICK,[span]   -> CLICK,seq_7
+2024-01-07 00:00:10,> CLICK,[button]  Hiring Type -> CLICK,seq_7
+2024-01-07 00:00:11,> CLICK,[span]   -> CLICK,seq_7
+2024-01-07 00:00:12,> SELECT: Most recent,[combobox]  Sort by -> SELECT: Most recent,seq_7
+2024-01-07 00:00:13,> CLICK,[span]  Analyst - Sales Programs -> CLICK,seq_7
+2024-01-07 00:00:14,> CLICK,[button]  Apply Now -> CLICK,seq_7
+2024-01-07 00:00:15,> TYPE: jacksparrow@gmail.com,[textbox]  Email * is a required field. -> TYPE: jacksparrow@gmail.com,seq_7
+2024-01-07 00:00:16,> CLICK,[button]  Continue -> CLICK,seq_7
+2024-01-08 00:00:01,> CLICK,[tab]  TRAVEL INFO -> CLICK,seq_8
+2024-01-08 00:00:02,> CLICK,[link]  Flight status -> CLICK,seq_8
+2024-01-08 00:00:03,> CLICK,"[generic]  Apr 7, 2023 -> CLICK",seq_8
+2024-01-08 00:00:04,> CLICK,"[option]  Apr 9, 2023 -> CLICK",seq_8
+2024-01-08 00:00:05,> CLICK,[combobox]  Airline. Enter to change collapsed list. Selected ... -> CLICK,seq_8
+2024-01-08 00:00:06,> CLICK,[option]  United Airlines (UA) -> CLICK,seq_8
+2024-01-08 00:00:07,> TYPE: belo horizonte,"[combobox]  Enter your departing city, airport name, or airpor... -> TYPE: belo horizonte",seq_8
+2024-01-08 00:00:08,> CLICK,"[button]  Belo Horizonte, MG, BR (CNF - Tancredo Neves) -> CLICK",seq_8
+2024-01-08 00:00:09,> TYPE: buenos aires,"[combobox]  Enter your destination city, airport name, or airp... -> TYPE: buenos aires",seq_8
+2024-01-08 00:00:10,> CLICK,"[button]  Buenos Aires, AR (EZE - Ministro Pistarini) -> CLICK",seq_8
+2024-01-08 00:00:11,> CLICK,[button]  Check status -> CLICK,seq_8
+2024-01-09 00:00:01,> CLICK,[tab]  TRAVEL INFO -> CLICK,seq_9
+2024-01-09 00:00:02,> CLICK,[link]  Baggage info -> CLICK,seq_9
+2024-01-09 00:00:03,> CLICK,[link]  Baggage fee calculator -> CLICK,seq_9
+2024-01-09 00:00:04,> TYPE: columbus,[combobox]  From -> TYPE: columbus,seq_9
+2024-01-09 00:00:05,> CLICK,"[button]  Columbus, OH, US (CMH) -> CLICK",seq_9
+2024-01-09 00:00:06,> TYPE: new orleans,[combobox]  To -> TYPE: new orleans,seq_9
+2024-01-09 00:00:07,> CLICK,"[button]  New Orleans, LA, US (MSY) -> CLICK",seq_9
+2024-01-09 00:00:08,> CLICK,[textbox]  Depart date -> CLICK,seq_9
+2024-01-09 00:00:09,> CLICK,"[button]  Sunday, April 9, 2023 -> CLICK",seq_9
+2024-01-09 00:00:10,> SELECT: Business or First,[combobox]  CabinTravelers with Economy (first checked bag cha... -> SELECT: Business or First,seq_9
+2024-01-09 00:00:11,> CLICK,[button]  View bag charges -> CLICK,seq_9
+2024-01-10 00:00:01,> TYPE: Santa Fe,"[combobox]  Enter your departing city, airport name, or airpor... -> TYPE: Santa Fe",seq_10
+2024-01-10 00:00:02,> CLICK,"[button]  Santa Fe, NM, US (SAF) -> CLICK",seq_10
+2024-01-10 00:00:03,> TYPE: Phoenix,"[combobox]  Enter your destination city, airport name, or airp... -> TYPE: Phoenix",seq_10
+2024-01-10 00:00:04,> CLICK,"[button]  Phoenix, AZ, US (PHX) -> CLICK",seq_10
+2024-01-10 00:00:05,> CLICK,[textbox]  Depart -> CLICK,seq_10
+2024-01-10 00:00:06,> CLICK,[button]  Move forward to switch to the next month. -> CLICK,seq_10
+2024-01-10 00:00:07,> CLICK,[span]  13 -> CLICK,seq_10
+2024-01-10 00:00:08,> CLICK,[span]  28 -> CLICK,seq_10
+2024-01-10 00:00:09,> CLICK,[button]  Find flights -> CLICK,seq_10
+2024-01-10 00:00:10,> CLICK,[button]  Roundtrip $681 United Economy (U) Select fare for ... -> CLICK,seq_10
+2024-01-10 00:00:11,> CLICK,[div]  $681 -> CLICK,seq_10
+2024-01-11 00:00:01,> CLICK,[link]   Electronics  -> CLICK,seq_11
+2024-01-11 00:00:02,> CLICK,[link]  Tablets -> CLICK,seq_11
+2024-01-11 00:00:03,> CLICK,[img]  Samsung -> CLICK,seq_11
+2024-01-11 00:00:04,> CLICK,"[span]  11"" & Larger -> CLICK",seq_11
+2024-01-11 00:00:05,> CLICK,[button]  APPLY -> CLICK,seq_11
+2024-01-11 00:00:06,> CLICK,"[span]  8.7"" -> CLICK",seq_11
+2024-01-11 00:00:07,> CLICK,[button]  APPLY -> CLICK,seq_11
+2024-01-11 00:00:08,> CLICK,[span]  $200 - $300 -> CLICK,seq_11
+2024-01-11 00:00:09,> CLICK,[button]  APPLY -> CLICK,seq_11
+2024-01-11 00:00:10,> SELECT: Lowest Price,[combobox]  Featured Items  -> SELECT: Lowest Price,seq_11
+2024-01-11 00:00:11,> CLICK,[button]  ADD TO CART  -> CLICK,seq_11
+2024-01-12 00:00:01,> CLICK,[link]  Products -> CLICK,seq_12
+2024-01-12 00:00:02,> CLICK,[button]  Kitchenware & tableware -> CLICK,seq_12
+2024-01-12 00:00:03,> CLICK,[link]  Flatware & cutlery -> CLICK,seq_12
+2024-01-12 00:00:04,> CLICK,[span]  Columbus -> CLICK,seq_12
+2024-01-12 00:00:05,> TYPE: san diego,"[searchbox]  Search by ZIP code or city, state -> TYPE: san diego",seq_12
+2024-01-12 00:00:06,> CLICK,[button]  Submit -> CLICK,seq_12
+2024-01-12 00:00:07,> CLICK,[span]  Select store -> CLICK,seq_12
+2024-01-12 00:00:08,> CLICK,[link]  Flatware -> CLICK,seq_12
+2024-01-12 00:00:09,> CLICK,[button]  Show more filters modal -> CLICK,seq_12
+2024-01-12 00:00:10,> CLICK,[button]  Sort Best match -> CLICK,seq_12
+2024-01-12 00:00:11,> CLICK,[radio]  Price: low to high -> CLICK,seq_12
+2024-01-12 00:00:12,> CLICK,[path]   -> CLICK,seq_12
+2024-01-12 00:00:13,> CLICK,[span]   -> CLICK,seq_12
+2024-01-12 00:00:14,> CLICK,[path]   -> CLICK,seq_12
+2024-01-12 00:00:15,> CLICK,[span]   -> CLICK,seq_12
+2024-01-12 00:00:16,> CLICK,[button]  Type -> CLICK,seq_12
+2024-01-12 00:00:17,> CLICK,[span]   -> CLICK,seq_12
+2024-01-12 00:00:18,> CLICK,[button]  Close -> CLICK,seq_12
+2024-01-13 00:00:01,> CLICK,[tab]  My Trips -> CLICK,seq_13
+2024-01-13 00:00:02,> TYPE: 1234567890,[textbox]  booking reference -> TYPE: 1234567890,seq_13
+2024-01-13 00:00:03,> TYPE: Smith,[textbox]  last name -> TYPE: Smith,seq_13
+2024-01-13 00:00:04,> CLICK,[button]  Retrieve booking -> CLICK,seq_13
+2024-01-14 00:00:01,> TYPE: colombo,[textbox]  From Autocomplete selection. Enter your place. -> TYPE: colombo,seq_14
+2024-01-14 00:00:02,> CLICK,[strong]  Colombo -> CLICK,seq_14
+2024-01-14 00:00:03,> TYPE: new york,"[textbox]  To 2180 results are available, use up and down arr... -> TYPE: new york",seq_14
+2024-01-14 00:00:04,> CLICK,[strong]  New York -> CLICK,seq_14
+2024-01-14 00:00:05,> CLICK,[textbox]  Depart date please enter date in the format dd spa... -> CLICK,seq_14
+2024-01-14 00:00:06,> CLICK,[gridcell]  24 June 2023 -> CLICK,seq_14
+2024-01-14 00:00:07,> CLICK,[textbox]  Passengers / Class -> CLICK,seq_14
+2024-01-14 00:00:08,> CLICK,[button]  Decrease number of infant passengers -> CLICK,seq_14
+2024-01-14 00:00:09,> CLICK,[button]  Increase number of child passengers -> CLICK,seq_14
+2024-01-14 00:00:10,> CLICK,[span]  (Business/First) -> CLICK,seq_14
+2024-01-14 00:00:11,> CLICK,[button]  Confirm -> CLICK,seq_14
+2024-01-14 00:00:12,> CLICK,[button]  Show flights -> CLICK,seq_14
+2024-01-14 00:00:13,> CLICK,"[heading]  LKR 1,120,521 -> CLICK",seq_14
+2024-01-14 00:00:14,> CLICK,[button]  Select fare -> CLICK,seq_14
+2024-01-14 00:00:15,> CLICK,"[heading]  LKR 3,125,932 -> CLICK",seq_14
+2024-01-14 00:00:16,> CLICK,[button]  Select fare -> CLICK,seq_14
+2024-01-15 00:00:01,> CLICK,[link]   subway Subway Lines -> CLICK,seq_15
+2024-01-15 00:00:02,> CLICK,[span]  Orange Line -> CLICK,seq_15
+2024-01-15 00:00:03,> CLICK,[link]  Schedules & Maps -> CLICK,seq_15
+2024-01-16 00:00:01,> CLICK,[link]  CITY PAGES -> CLICK,seq_16
+2024-01-16 00:00:02,> CLICK,[link]  Cleveland -> CLICK,seq_16
+2024-01-16 00:00:03,> CLICK,[img]   -> CLICK,seq_16
+2024-01-16 00:00:04,> CLICK,[link]  Map View -> CLICK,seq_16
+2024-01-17 00:00:01,"> TYPE: Stanford, CA","[input]   -> TYPE: Stanford, CA",seq_17
+2024-01-17 00:00:02,> TYPE: car accident lawyers,[input]   -> TYPE: car accident lawyers,seq_17
+2024-01-17 00:00:03,> CLICK,[link]  car accident lawyers -> CLICK,seq_17
+2024-01-17 00:00:04,> CLICK,[div]  Sort: -> CLICK,seq_17
+2024-01-17 00:00:05,> CLICK,[a]  Distance -> CLICK,seq_17
+2024-01-17 00:00:06,> CLICK,[div]  1. -> CLICK,seq_17
+2024-01-18 00:00:01,> HOVER,[link]  More -> HOVER,seq_18
+2024-01-18 00:00:02,> CLICK,[span]  Dry Cleaning -> CLICK,seq_18
+2024-01-18 00:00:03,> TYPE: new york city,[textbox]  Near -> TYPE: new york city,seq_18
+2024-01-18 00:00:04,> CLICK,"[span]  New York, NY -> CLICK",seq_18
+2024-01-18 00:00:05,> CLICK,[button]  Virtual Consultations -> CLICK,seq_18
+2024-01-18 00:00:06,> CLICK,[button]  Recommended -> CLICK,seq_18
+2024-01-18 00:00:07,> CLICK,[span]  Highest Rated -> CLICK,seq_18
+2024-01-18 00:00:08,> CLICK,[checkbox]   Ironing -> CLICK,seq_18
+2024-01-18 00:00:09,> CLICK,[checkbox]   Suits -> CLICK,seq_18
+2024-01-18 00:00:10,> CLICK,[checkbox]   Delicates -> CLICK,seq_18
+2024-01-19 00:00:01,> TYPE: Timesqure New York,[textbox]  Where are you going? -> TYPE: Timesqure New York,seq_19
+2024-01-19 00:00:02,> CLICK,"[button]  Times Square, New York, NY, USA -> CLICK",seq_19
+2024-01-19 00:00:03,> CLICK,[button]  1 adult · 0 children · 1 room -> CLICK,seq_19
+2024-01-19 00:00:04,> CLICK,[svg]   -> CLICK,seq_19
+2024-01-19 00:00:05,> CLICK,[button]  Done -> CLICK,seq_19
+2024-01-19 00:00:06,> CLICK,[button]  Search -> CLICK,seq_19
+2024-01-19 00:00:07,> CLICK,[span]   -> CLICK,seq_19
+2024-01-19 00:00:08,> CLICK,[span]   -> CLICK,seq_19
+2024-01-19 00:00:09,> CLICK,[link]  Renaissance New York Times Square Hotel Opens in n... -> CLICK,seq_19
+2024-01-20 00:00:01,> CLICK,[button]  SAIL TO -> CLICK,seq_20
+2024-01-20 00:00:02,> CLICK,[button]  Hawaii  -> CLICK,seq_20
+2024-01-20 00:00:03,> CLICK,[button]  SAIL FROM -> CLICK,seq_20
+2024-01-20 00:00:04,> CLICK,"[button]  Los Angeles, CA  -> CLICK",seq_20
+2024-01-20 00:00:05,> CLICK,[button]  DATES -> CLICK,seq_20
+2024-01-20 00:00:06,> CLICK,[button]  January 2024  -> CLICK,seq_20
+2024-01-20 00:00:07,> CLICK,[button]  DURATION -> CLICK,seq_20
+2024-01-20 00:00:08,> CLICK,[button]  10+ Days  -> CLICK,seq_20
+2024-01-20 00:00:09,> CLICK,[button]  SEARCH CRUISES -> CLICK,seq_20
+2024-01-21 00:00:01,> CLICK,[button]  Search -> CLICK,seq_21
+2024-01-21 00:00:02,> TYPE: travel agent,[textbox]  Search the site -> TYPE: travel agent,seq_21
+2024-01-21 00:00:03,> CLICK,[button]  Find -> CLICK,seq_21
+2024-01-21 00:00:04,> CLICK,[link]  Find A Travel Agent | Carnival Cruise Line -> CLICK,seq_21
+2024-01-21 00:00:05,> TYPE: Grand Junction,[textbox]  City -> TYPE: Grand Junction,seq_21
+2024-01-21 00:00:06,> SELECT: Colorado,[combobox]  State -> SELECT: Colorado,seq_21
+2024-01-21 00:00:07,> CLICK,[button]  Search -> CLICK,seq_21
+2024-01-22 00:00:01,> CLICK,[button]  SAIL TO -> CLICK,seq_22
+2024-01-22 00:00:02,> CLICK,[button]  Alaska  -> CLICK,seq_22
+2024-01-22 00:00:03,> CLICK,[button]  SAIL FROM -> CLICK,seq_22
+2024-01-22 00:00:04,> CLICK,"[button]  Seattle, WA  -> CLICK",seq_22
+2024-01-22 00:00:05,> CLICK,[span]  Dates -> CLICK,seq_22
+2024-01-22 00:00:06,> CLICK,[button]  September 2023  -> CLICK,seq_22
+2024-01-22 00:00:07,> CLICK,[button]  DURATION -> CLICK,seq_22
+2024-01-22 00:00:08,> CLICK,[button]  6 - 9 Days  -> CLICK,seq_22
+2024-01-22 00:00:09,> CLICK,[button]  SEARCH CRUISES -> CLICK,seq_22
+2024-01-22 00:00:10,> CLICK,[button]  Number of Guests -> CLICK,seq_22
+2024-01-22 00:00:11,> CLICK,[path]   -> CLICK,seq_22
+2024-01-22 00:00:12,> CLICK,[path]   -> CLICK,seq_22
+2024-01-22 00:00:13,> CLICK,[button]  Ships -> CLICK,seq_22
+2024-01-22 00:00:14,> CLICK,[button]  Carnival Luminosa -> CLICK,seq_22
+2024-01-23 00:00:01,> TYPE: La Bomba,[textbox]  Enter artist name or song title -> TYPE: La Bomba,seq_23
+2024-01-23 00:00:02,> CLICK,[button]  SEARCH -> CLICK,seq_23
+2024-01-23 00:00:03,> CLICK,[link]  Chords -> CLICK,seq_23
+2024-01-23 00:00:04,> CLICK,[link]  High rated -> CLICK,seq_23
+2024-01-24 00:00:01,> CLICK,[link]  New Openings -> CLICK,seq_24
+2024-01-24 00:00:02,> CLICK,[a]   -> CLICK,seq_24
+2024-01-24 00:00:03,> CLICK,[link]   -> CLICK,seq_24
+2024-01-25 00:00:01,> CLICK,"[div]  Columbus, OH -> CLICK",seq_25
+2024-01-25 00:00:02,> CLICK,[button]  New York -> CLICK,seq_25
+2024-01-25 00:00:03,> TYPE: indian,"[textbox]  Search restaurants, cuisines, etc. -> TYPE: indian",seq_25
+2024-01-25 00:00:04,> CLICK,[b]  Indian -> CLICK,seq_25
+2024-01-25 00:00:05,> CLICK,[button]  Today -> CLICK,seq_25
+2024-01-25 00:00:06,> CLICK,"[button]  April 12, 2023. -> CLICK",seq_25
+2024-01-25 00:00:07,> CLICK,[button]  View more availability for BayLeaf Modern Indian C... -> CLICK,seq_25
+2024-01-25 00:00:08,> CLICK,[button]  8:15 PM Table -> CLICK,seq_25
+2024-01-25 00:00:09,> CLICK,[button]  Reserve Now -> CLICK,seq_25
+2024-01-25 00:00:10,> CLICK,[button]  Done -> CLICK,seq_25
+2024-01-26 00:00:01,> CLICK,[svg]   -> CLICK,seq_26
+2024-01-26 00:00:02,> CLICK,[button]  Atlanta -> CLICK,seq_26
+2024-01-26 00:00:03,> TYPE: pizza,"[textbox]  Search restaurants, cuisines, etc. -> TYPE: pizza",seq_26
+2024-01-26 00:00:04,> ENTER,"[textbox]  Search restaurants, cuisines, etc. -> ENTER",seq_26
+2024-01-27 00:00:01,> CLICK,[link]  The Hit List -> CLICK,seq_27
+2024-01-27 00:00:02,> CLICK,[a]   -> CLICK,seq_27
+2024-01-27 00:00:03,> CLICK,[link]  Book Now -> CLICK,seq_27
+2024-01-27 00:00:04,> CLICK,[button]  12:30 PM Outdoor Counter -> CLICK,seq_27
+2024-01-27 00:00:05,> CLICK,[button]  Reserve Now -> CLICK,seq_27
+2024-01-28 00:00:01,> TYPE: thai,"[textbox]  Search restaurants, cuisines, etc. -> TYPE: thai",seq_28
+2024-01-28 00:00:02,> CLICK,[heading]  Senyai Thai Kitchen -> CLICK,seq_28
+2024-01-28 00:00:03,> CLICK,[button]  Notify for Dinner -> CLICK,seq_28
+2024-01-28 00:00:04,> SELECT: 7:00 PM,[combobox]  Preferred end time -> SELECT: 7:00 PM,seq_28
+2024-01-28 00:00:05,> CLICK,[button]  Confirm -> CLICK,seq_28
+2024-01-29 00:00:01,> CLICK,[link]  Exotic Cars -> CLICK,seq_29
+2024-01-29 00:00:02,> CLICK,[link]  Reserve Now -> CLICK,seq_29
+2024-01-29 00:00:03,> CLICK,[link]  Beverly Hills -> CLICK,seq_29
+2024-01-29 00:00:04,> CLICK,[button]  Selected Pick-Up Date 03/21/2023 -> CLICK,seq_29
+2024-01-29 00:00:05,> CLICK,[button]  03/31/2023 -> CLICK,seq_29
+2024-01-29 00:00:06,> SELECT: 11:00 AM,[combobox]  Pick-Up Time Selector -> SELECT: 11:00 AM,seq_29
+2024-01-29 00:00:07,> CLICK,[button]  Date -> CLICK,seq_29
+2024-01-29 00:00:08,> CLICK,[button]  Selected Pick-Up Date 03/31/2023 -> CLICK,seq_29
+2024-01-29 00:00:09,> SELECT: 5:00 PM,[combobox]  Return Time Selector -> SELECT: 5:00 PM,seq_29
+2024-01-29 00:00:10,> CLICK,[button]  Browse Vehicles -> CLICK,seq_29
+2024-01-29 00:00:11,> CLICK,[checkbox]  2+ -> CLICK,seq_29
+2024-01-29 00:00:12,> SELECT: Price: Low to High,[combobox]  SORT BY -> SELECT: Price: Low to High,seq_29
+2024-01-30 00:00:01,> CLICK,[button]  Car Sales -> CLICK,seq_30
+2024-01-30 00:00:02,> CLICK,"[link]  Shop Vehicles Under $20,000 Link opens in a new wi... -> CLICK",seq_30
+2024-01-30 00:00:03,> CLICK,[button]  Body Type  -> CLICK,seq_30
+2024-01-30 00:00:04,> CLICK,[path]   -> CLICK,seq_30
+2024-01-31 00:00:01,> TYPE: benadryl,[combobox]  Search products and services -> TYPE: benadryl,seq_31
+2024-01-31 00:00:02,> CLICK,[button]  Search for benadryl -> CLICK,seq_31
+2024-01-31 00:00:03,> CLICK,[img]   -> CLICK,seq_31
+2024-01-31 00:00:04,> CLICK,[div]   -> CLICK,seq_31
+2024-01-31 00:00:05,> CLICK,[button]  Form -> CLICK,seq_31
+2024-01-31 00:00:06,> CLICK,[div]   -> CLICK,seq_31
+2024-02-01 00:00:01,> TYPE: Chicago,[textbox]  From Autocomplete selection. Enter your place. -> TYPE: Chicago,seq_32
+2024-02-01 00:00:02,> CLICK,[menuitem]  Chicago United States of America ORD OHare Interna... -> CLICK,seq_32
+2024-02-01 00:00:03,> TYPE: Paris,[textbox]  To Autocomplete selection. Enter your place. -> TYPE: Paris,seq_32
+2024-02-01 00:00:04,> CLICK,[menuitem]  Paris France CDG Charles De Gaulle Airport -> CLICK,seq_32
+2024-02-01 00:00:05,> CLICK,[option]  One way -> CLICK,seq_32
+2024-02-01 00:00:06,> CLICK,[gridcell]  17 April 2023 -> CLICK,seq_32
+2024-02-01 00:00:07,> CLICK,[button]  Continue -> CLICK,seq_32
+2024-02-01 00:00:08,> CLICK,[button]  Show flights -> CLICK,seq_32
+2024-02-02 00:00:01,> CLICK,[button]  Experience -> CLICK,seq_33
+2024-02-02 00:00:02,> CLICK,[link]  Baggage allowance -> CLICK,seq_33
+2024-02-02 00:00:03,> CLICK,[link]  Business Class -> CLICK,seq_33
+2024-02-03 00:00:01,> CLICK,[link]  Bestsellers -> CLICK,seq_34
+2024-02-03 00:00:02,> SELECT: Under US$20,[select]  All -> SELECT: Under US$20,seq_34
+2024-02-03 00:00:03,> SELECT: Hardback,[select]  All -> SELECT: Hardback,seq_34
+2024-02-03 00:00:04,> CLICK,[button]  Refine results -> CLICK,seq_34
+2024-02-04 00:00:01,> HOVER,[link]  Shop by category∨ -> HOVER,seq_35
+2024-02-04 00:00:02,> CLICK,[link]  Medical -> CLICK,seq_35
+2024-02-04 00:00:03,> CLICK,[link]  Complementary Medicine -> CLICK,seq_35
+2024-02-04 00:00:04,> SELECT: Audio (376),[select]  All -> SELECT: Audio (376),seq_35
+2024-02-04 00:00:05,> SELECT: Under US$20,[select]  All -> SELECT: Under US$20,seq_35
+2024-02-04 00:00:06,> CLICK,[button]  Refine results -> CLICK,seq_35
+2024-02-04 00:00:07,> CLICK,[button]  Add to basket -> CLICK,seq_35
+2024-02-05 00:00:01,> TYPE: Harry Potter,[textbox]  Search for books by keyword / title / author / ISB... -> TYPE: Harry Potter,seq_36
+2024-02-05 00:00:02,> CLICK,[button]  Search -> CLICK,seq_36
+2024-02-05 00:00:03,> CLICK,[link]  Harry Potter and the Cursed Child - Parts I & II -> CLICK,seq_36
+2024-02-05 00:00:04,> CLICK,[link]  Add to wishlist -> CLICK,seq_36
+2024-02-05 00:00:05,> CLICK,[button]  Add -> CLICK,seq_36
+2024-02-06 00:00:01,> CLICK,[link]  Shop by category∨ -> CLICK,seq_37
+2024-02-06 00:00:02,> CLICK,[link]  Shop by category∨ -> CLICK,seq_37
+2024-02-06 00:00:03,> CLICK,[link]  Medical -> CLICK,seq_37
+2024-02-06 00:00:04,> CLICK,[link]  Diseases & Disorders -> CLICK,seq_37
+2024-02-06 00:00:05,> CLICK,[button]  Add to basket -> CLICK,seq_37
+2024-02-07 00:00:01,> CLICK,[link]  Price New/Used -> CLICK,seq_38
+2024-02-07 00:00:02,> SELECT: 2006,[combobox]  Year -> SELECT: 2006,seq_38
+2024-02-07 00:00:03,> SELECT: Honda,[combobox]  Make -> SELECT: Honda,seq_38
+2024-02-07 00:00:04,> SELECT: Civic,[combobox]  Model -> SELECT: Civic,seq_38
+2024-02-07 00:00:05,> CLICK,[button]  Next -> CLICK,seq_38
+2024-02-07 00:00:06,> CLICK,[link]  See Cars for Sale -> CLICK,seq_38
+2024-02-08 00:00:01,> CLICK,[link]  Shop by category∨ -> CLICK,seq_39
+2024-02-08 00:00:02,> CLICK,[link]  Dr. Seuss -> CLICK,seq_39
+2024-02-08 00:00:03,> SELECT: US$20 to US$40,[select]  All -> SELECT: US$20 to US$40,seq_39
+2024-02-08 00:00:04,> CLICK,[button]  Refine results -> CLICK,seq_39
+2024-02-08 00:00:05,> CLICK,[button]  Add to basket -> CLICK,seq_39
+2024-02-08 00:00:06,> CLICK,[button]  Close -> CLICK,seq_39
+2024-02-08 00:00:07,> CLICK,[button]  Add to basket -> CLICK,seq_39
+2024-02-09 00:00:01,> TYPE: Jk rowling,[textbox]  Search for books by keyword / title / author / ISB... -> TYPE: Jk rowling,seq_40
+2024-02-09 00:00:02,> CLICK,[link]  Jk rowling -> CLICK,seq_40
+2024-02-09 00:00:03,"> SELECT: Publication date, new to old","[select]  Most popular -> SELECT: Publication date, new to old",seq_40
+2024-02-09 00:00:04,> CLICK,[div]  Age range -> CLICK,seq_40
+2024-02-09 00:00:05,5 (31),[select]  All -> SELECT: Ages 3-5 (31),seq_40
+2024-02-09 00:00:06,> SELECT: Under US$20,[select]  All -> SELECT: Under US$20,seq_40
+2024-02-09 00:00:07,> CLICK,[button]  Refine results -> CLICK,seq_40
+2024-02-10 00:00:01,> TYPE: Chicago,[textbox]  From -> TYPE: Chicago,seq_41
+2024-02-10 00:00:02,> CLICK,"[a]  CHI - Chicago, IL -> CLICK",seq_41
+2024-02-10 00:00:03,> TYPE: London,[textbox]  To -> TYPE: London,seq_41
+2024-02-10 00:00:04,> CLICK,"[a]  LON - London, United Kingdom -> CLICK",seq_41
+2024-02-10 00:00:05,> CLICK,"[button]  􎀺 View Calendar: To navigate the calendar, use the... -> CLICK",seq_41
+2024-02-10 00:00:06,> CLICK,[link]  20 -> CLICK,seq_41
+2024-02-10 00:00:07,> CLICK,"[button]  􎀺 View Calendar: To navigate the calendar, use the... -> CLICK",seq_41
+2024-02-10 00:00:08,> CLICK,[link]  23 -> CLICK,seq_41
+2024-02-10 00:00:09,> CLICK,[button]  Search -> CLICK,seq_41
+2024-02-11 00:00:01,> CLICK,"[link]  We're hiring! Join our team , Opens another site i... -> CLICK",seq_42
+2024-02-11 00:00:02,> CLICK,[button]  Careers  -> CLICK,seq_42
+2024-02-11 00:00:03,> CLICK,[link]  View All Jobs -> CLICK,seq_42
+2024-02-11 00:00:04,> TYPE: developer,[textbox]  Search by Keyword -> TYPE: developer,seq_42
+2024-02-11 00:00:05,> TYPE: dallas,[textbox]  Search by Location -> TYPE: dallas,seq_42
+2024-02-11 00:00:06,> CLICK,[button]  Search Jobs -> CLICK,seq_42
+2024-02-11 00:00:07,> CLICK,"[link]  Developer/ Senior Developer, IT -> CLICK",seq_42
+2024-02-11 00:00:08,> TYPE: 8,[spinbutton]  Select how often (in days) to receive an alert: -> TYPE: 8,seq_42
+2024-02-11 00:00:09,> CLICK,[button]  ✉ Create Alert -> CLICK,seq_42
+2024-02-12 00:00:01,> CLICK,[span]  Vacation packages -> CLICK,seq_43
+2024-02-12 00:00:02,> TYPE: san francisco,[textbox]  From -> TYPE: san francisco,seq_43
+2024-02-12 00:00:03,> CLICK,"[a]  SFO - San Francisco International, CA -> CLICK",seq_43
+2024-02-12 00:00:04,> TYPE: new york,[textbox]  To -> TYPE: new york,seq_43
+2024-02-12 00:00:05,> CLICK,"[a]  NYC - New York, NY -> CLICK",seq_43
+2024-02-12 00:00:06,> SELECT: 2,[combobox]  Number of passengers -> SELECT: 2,seq_43
+2024-02-12 00:00:07,> CLICK,[textbox]  Depart (date format mm/dd/yyyy) -> CLICK,seq_43
+2024-02-12 00:00:08,> CLICK,"[button]  􎀺 View Calendar: To navigate the calendar, use the... -> CLICK",seq_43
+2024-02-12 00:00:09,> CLICK,[link]  9 -> CLICK,seq_43
+2024-02-12 00:00:10,> CLICK,"[button]  􎀺 View Calendar: To navigate the calendar, use the... -> CLICK",seq_43
+2024-02-12 00:00:11,> CLICK,[link]  19 -> CLICK,seq_43
+2024-02-12 00:00:12,> SELECT: First,[combobox]  Fare preference -> SELECT: First,seq_43
+2024-02-12 00:00:13,> CLICK,"[button]  Search , Opens another site in a new window that m... -> CLICK",seq_43
+2024-02-13 00:00:01,> CLICK,[link]  Receipts and refunds -> CLICK,seq_44
+2024-02-13 00:00:02,> CLICK,[link]  Check the status of a refund  -> CLICK,seq_44
+2024-02-13 00:00:03,> CLICK,[textbox]  Ticket number  -> CLICK,seq_44
+2024-02-13 00:00:04,> TYPE: 1234567890123,[textbox]  Ticket number  -> TYPE: 1234567890123,seq_44
+2024-02-13 00:00:05,> CLICK,[textbox]  First name  -> CLICK,seq_44
+2024-02-13 00:00:06,> TYPE: John,[textbox]  First name  -> TYPE: John,seq_44
+2024-02-13 00:00:07,> CLICK,[textbox]  Last name  -> CLICK,seq_44
+2024-02-13 00:00:08,> TYPE: Davis,[textbox]  Last name  -> TYPE: Davis,seq_44
+2024-02-13 00:00:09,> CLICK,[button]  Search -> CLICK,seq_44
+2024-02-14 00:00:01,> CLICK,[link]  Receipts and refunds -> CLICK,seq_45
+2024-02-14 00:00:02,> CLICK,[link]  Receipts for tickets and fees  -> CLICK,seq_45
+2024-02-14 00:00:03,> CLICK,[textbox]  Ticket number -> CLICK,seq_45
+2024-02-14 00:00:04,> TYPE: 1234567890123,[textbox]  Ticket number -> TYPE: 1234567890123,seq_45
+2024-02-14 00:00:05,> CLICK,[textbox]  Last name -> CLICK,seq_45
+2024-02-14 00:00:06,> TYPE: Davis,[textbox]  Last name -> TYPE: Davis,seq_45
+2024-02-14 00:00:07,> CLICK,[button]  Find your receipt -> CLICK,seq_45
+2024-02-15 00:00:01,> CLICK,[button]  Toggle Sidebar -> CLICK,seq_46
+2024-02-15 00:00:02,> CLICK,[button]  Discover -> CLICK,seq_46
+2024-02-15 00:00:03,> CLICK,[link]  Upcoming Games -> CLICK,seq_46
+2024-02-15 00:00:04,> SELECT: PS5,[combobox]  Platform -> SELECT: PS5,seq_46
+2024-02-15 00:00:05,> CLICK,[tab]  AUG '23 -> CLICK,seq_46
+2024-02-15 00:00:06,> CLICK,[div]  The Texas Chain Saw Massacre -> CLICK,seq_46
+2024-02-16 00:00:01,> CLICK,[button]  Search -> CLICK,seq_47
+2024-02-16 00:00:02,> TYPE: Guardians of the Galaxy,[searchbox]  Search -> TYPE: Guardians of the Galaxy,seq_47
+2024-02-16 00:00:03,> CLICK,[tab]  MOVIES -> CLICK,seq_47
+2024-02-16 00:00:04,> CLICK,[div]  Guardians of the Galaxy Vol. 3 -> CLICK,seq_47
+2024-02-17 00:00:01,> CLICK,[span]  Sail To -> CLICK,seq_48
+2024-02-17 00:00:02,> CLICK,[button]  Panama Canal  -> CLICK,seq_48
+2024-02-17 00:00:03,> CLICK,[span]  Sail From -> CLICK,seq_48
+2024-02-17 00:00:04,> CLICK,"[button]  San Francisco, CA  -> CLICK",seq_48
+2024-02-17 00:00:05,> CLICK,[span]  Dates -> CLICK,seq_48
+2024-02-17 00:00:06,> CLICK,[button]  October 2024  -> CLICK,seq_48
+2024-02-17 00:00:07,> CLICK,[button]  SEARCH CRUISES -> CLICK,seq_48
+2024-02-17 00:00:08,> CLICK,[path]   -> CLICK,seq_48
+2024-02-18 00:00:01,> CLICK,[link]  Weddings & Occasions -> CLICK,seq_49
+2024-02-18 00:00:02,> CLICK,[heading]  DOWNLOAD DIGITAL BROCHURE -> CLICK,seq_49
+2024-02-19 00:00:01,> CLICK,[link]  Today's Deals -> CLICK,seq_50
+2024-02-19 00:00:02,> CLICK,[link]  Trending (2) -> CLICK,seq_50
+2024-02-20 00:00:01,> HOVER,[button]  Explore -> HOVER,seq_51
+2024-02-20 00:00:02,> CLICK,[link]  Dining -> CLICK,seq_51
+2024-02-20 00:00:03,> CLICK,[span]  EXPLORE DINING -> CLICK,seq_51
+2024-02-20 00:00:04,> CLICK,[radio]  Filter group Ship: Carnival Breeze -> CLICK,seq_51
+2024-02-20 00:00:05,> CLICK,[radio]  Filter group Meal Time: Breakfast -> CLICK,seq_51
+2024-02-21 00:00:01,> CLICK,[link]  MOVIES -> CLICK,seq_52
+2024-02-21 00:00:02,> CLICK,[svg]   -> CLICK,seq_52
+2024-02-21 00:00:03,> CLICK,[div]   -> CLICK,seq_52
+2024-02-21 00:00:04,> CLICK,[button]  APPLY -> CLICK,seq_52
+2024-02-21 00:00:05,> CLICK,[svg]   -> CLICK,seq_52
+2024-02-21 00:00:06,> CLICK,[div]   -> CLICK,seq_52
+2024-02-22 00:00:01,> CLICK,[button]  Our Company -> CLICK,seq_53
+2024-02-22 00:00:02,> CLICK,[link]  Careers  -> CLICK,seq_53
+2024-02-22 00:00:03,> CLICK,[link]  Students & Grads -> CLICK,seq_53
+2024-02-22 00:00:04,> CLICK,[link]  INTERNSHIP PROGRAMS -> CLICK,seq_53
+2024-02-22 00:00:05,> CLICK,[link]  HOTEL INTERNSHIPS INTERNATIONAL -> CLICK,seq_53
+2024-02-22 00:00:06,> CLICK,[button]  Locations -> CLICK,seq_53
+2024-02-22 00:00:07,> CLICK,[button]  Germany -> CLICK,seq_53
+2024-02-22 00:00:08,> CLICK,[button]  Posting Dates -> CLICK,seq_53
+2024-02-22 00:00:09,> CLICK,[button]  Less than 7 days -> CLICK,seq_53
+2024-02-22 00:00:10,> CLICK,"[span]  Voyage Program, European Union Member States -> CLICK",seq_53
+2024-02-22 00:00:11,> CLICK,[button]  APPLY NOW -> CLICK,seq_53
+2024-02-23 00:00:01,> CLICK,[link]  Try Next Pro -> CLICK,seq_54
+2024-02-23 00:00:02,> CLICK,[button]  Compare plans -> CLICK,seq_54
+2024-02-24 00:00:01,> TYPE: Nirvana,[searchbox]  Search -> TYPE: Nirvana,seq_55
+2024-02-24 00:00:02,> CLICK,[link]  Search for “Nirvana” -> CLICK,seq_55
+2024-02-24 00:00:03,> CLICK,[link]  Nirvana -> CLICK,seq_55
+2024-02-24 00:00:04,> CLICK,[link]  Popular tracks -> CLICK,seq_55
+2024-02-25 00:00:01,> TYPE: Venice Beach,[combobox]    Enter an Address or Venue to find parking -> TYPE: Venice Beach,seq_56
+2024-02-25 00:00:02,> CLICK,[em]  Venice -> CLICK,seq_56
+2024-02-25 00:00:03,> CLICK,[strong]  Filters -> CLICK,seq_56
+2024-02-25 00:00:04,> CLICK,[checkbox]  Accepts Mobile Coupons -> CLICK,seq_56
+2024-02-26 00:00:01,> TYPE: Disneyland,[span]  Enter an Address or Venue to find parking -> TYPE: Disneyland,seq_57
+2024-02-26 00:00:02,> ENTER,[combobox]    Enter an Address or Venue to find parking -> ENTER,seq_57
+2024-02-26 00:00:03,> CLICK,[strong]  Filters -> CLICK,seq_57
+2024-02-26 00:00:04,> CLICK,[checkbox]  EV Charging -> CLICK,seq_57
+2024-02-26 00:00:05,> CLICK,[link]  View Details (P) SPHERE ON DEMAND - CITY OF ANAHEI... -> CLICK,seq_57
+2024-02-27 00:00:01,> CLICK,[link]  SUPPORT -> CLICK,seq_58
+2024-02-27 00:00:02,> CLICK,[heading]  What forms of payment do you accept for monthly pa... -> CLICK,seq_58
+2024-02-28 00:00:01,> CLICK,[link]  CITIES -> CLICK,seq_59
+2024-02-28 00:00:02,> CLICK,[heading]  WASHINGTON DC -> CLICK,seq_59
+2024-02-28 00:00:03,> CLICK,[link]  Theaters -> CLICK,seq_59
+2024-02-28 00:00:04,> CLICK,[link]  Warner Theatre Theaters -> CLICK,seq_59
+2024-02-28 00:00:05,> CLICK,[link]  SEE OPTIONS -> CLICK,seq_59
+2024-02-28 00:00:06,> CLICK,[heading]  The Portals Parking -> CLICK,seq_59
+2024-02-29 00:00:01,> CLICK,[link]  ADD PARKING TO YOUR WEBSITE -> CLICK,seq_60
+2024-02-29 00:00:02,> TYPE: BOSTON LEGAL,[textbox]  STEP 1: Enter Your Company Name -> TYPE: BOSTON LEGAL,seq_60
+2024-02-29 00:00:03,> TYPE: BOSTON NAVY YARD,[combobox]  STEP 2:Enter an address to search and select a loc... -> TYPE: BOSTON NAVY YARD,seq_60
+2024-02-29 00:00:04,> CLICK,[em]  Navy -> CLICK,seq_60
+2024-02-29 00:00:05,> CLICK,[span]  300 pixels x 150 pixels -> CLICK,seq_60
+2024-02-29 00:00:06,> CLICK,[span]  160 pixels x 400 pixels -> CLICK,seq_60
+2024-02-29 00:00:07,> CLICK,[span]  Default -> CLICK,seq_60
+2024-02-29 00:00:08,> CLICK,[li]  .15 miles -> CLICK,seq_60
+2024-02-29 00:00:09,> CLICK,[link]  Get My Code -> CLICK,seq_60
+2024-03-01 00:00:01,> CLICK,[div]  Events & Activities -> CLICK,seq_61
+2024-03-01 00:00:02,> CLICK,[input]   -> CLICK,seq_61
+2024-03-01 00:00:03,> CLICK,[button]  Greece -> CLICK,seq_61
+2024-03-01 00:00:04,> CLICK,[button]  Athens -> CLICK,seq_61
+2024-03-01 00:00:05,> CLICK,[button]  Go! -> CLICK,seq_61
+2024-03-01 00:00:06,> CLICK,[div]  Sort by -> CLICK,seq_61
+2024-03-01 00:00:07,> CLICK,[div]  Lowest price -> CLICK,seq_61
+2024-03-01 00:00:08,> CLICK,[div]  All dates -> CLICK,seq_61
+2024-03-01 00:00:09,> CLICK,[span]  2 -> CLICK,seq_61
+2024-03-01 00:00:10,> CLICK,[span]  2 -> CLICK,seq_61
+2024-03-01 00:00:11,> CLICK,[generic]  Athens Piraeus and Glyfada Hop on Hop off Tour -> CLICK,seq_61
+2024-03-02 00:00:01,> CLICK,[div]  Car Hire -> CLICK,seq_62
+2024-03-02 00:00:02,> TYPE: berlin,[textbox]  I need a car in -> TYPE: berlin,seq_62
+2024-03-02 00:00:03,> CLICK,"[button]  Berlin Berlin Federal State, Germany (City) -> CLICK",seq_62
+2024-03-02 00:00:04,> CLICK,[div]   -> CLICK,seq_62
+2024-03-02 00:00:05,> CLICK,[generic]  15 -> CLICK,seq_62
+2024-03-02 00:00:06,> CLICK,[generic]  16 -> CLICK,seq_62
+2024-03-02 00:00:07,> CLICK,[button]  11:30 -> CLICK,seq_62
+2024-03-02 00:00:08,> CLICK,[button]  11:00 -> CLICK,seq_62
+2024-03-02 00:00:09,> CLICK,[button]  Let's go -> CLICK,seq_62
+2024-03-02 00:00:10,> CLICK,[link]  Large cars 5 Seats 3 Large bags -> CLICK,seq_62
+2024-03-02 00:00:11,> CLICK,[ins]   -> CLICK,seq_62
+2024-03-02 00:00:12,> CLICK,[ins]   -> CLICK,seq_62
+2024-03-02 00:00:13,> CLICK,[ins]   -> CLICK,seq_62
+2024-03-02 00:00:14,> CLICK,[link]  Show all 10 cars -> CLICK,seq_62
+2024-03-02 00:00:15,> CLICK,"[link]  Opel Insignia or Similar , View deal -> CLICK",seq_62
+2024-03-02 00:00:16,> CLICK,[radio]  Radio yes -> CLICK,seq_62
+2024-03-02 00:00:17,> CLICK,[link]  Go to book -> CLICK,seq_62
+2024-03-03 00:00:01,> CLICK,[path]   -> CLICK,seq_63
+2024-03-03 00:00:02,> CLICK,[button]  More ways to shop -> CLICK,seq_63
+2024-03-03 00:00:03,> CLICK,[link]  Send gifts -> CLICK,seq_63
+2024-03-03 00:00:04,> CLICK,[span]  Beauty -> CLICK,seq_63
+2024-03-04 00:00:01,> CLICK,[img]   -> CLICK,seq_64
+2024-03-04 00:00:02,> CLICK,[link]  Produce -> CLICK,seq_64
+2024-03-04 00:00:03,> CLICK,[link]  Fresh Fruits -> CLICK,seq_64
+2024-03-04 00:00:04,> CLICK,[span]  Add -> CLICK,seq_64
+2024-03-04 00:00:05,> CLICK,[span]  Add -> CLICK,seq_64
+2024-03-04 00:00:06,> CLICK,[path]   -> CLICK,seq_64
+2024-03-04 00:00:07,> CLICK,[link]  Fresh Vegetables -> CLICK,seq_64
+2024-03-04 00:00:08,> CLICK,[span]  Add -> CLICK,seq_64
+2024-03-04 00:00:09,> CLICK,[span]  Add -> CLICK,seq_64
+2024-03-04 00:00:10,> CLICK,[link]  Herbs -> CLICK,seq_64
+2024-03-04 00:00:11,> CLICK,[div]  Add -> CLICK,seq_64
+2024-03-04 00:00:12,> CLICK,[button]  View Cart. Items in cart: 5 -> CLICK,seq_64
+2024-03-04 00:00:13,> CLICK,[button]  View Cart. Items in cart: 5 -> CLICK,seq_64
+2024-03-04 00:00:14,> CLICK,[div]  Go to checkout -> CLICK,seq_64
+2024-03-04 00:00:15,> CLICK,[div]   -> CLICK,seq_64
+2024-03-04 00:00:16,> CLICK,[button]  Confirm address -> CLICK,seq_64
+2024-03-04 00:00:17,> CLICK,[p]  Choose 3-hour window -> CLICK,seq_64
+2024-03-04 00:00:18,> CLICK,[div]  10am - 1pm -> CLICK,seq_64
+2024-03-04 00:00:19,> CLICK,[button]  Save -> CLICK,seq_64
+2024-03-05 00:00:01,> CLICK,[img]   -> CLICK,seq_65
+2024-03-05 00:00:02,> TYPE: bananas,[textbox]  Search Kroger... -> TYPE: bananas,seq_65
+2024-03-05 00:00:03,> CLICK,[span]  bananas -> CLICK,seq_65
+2024-03-05 00:00:04,> CLICK,[span]  Best match -> CLICK,seq_65
+2024-03-05 00:00:05,> CLICK,[option]  Price: lowest first -> CLICK,seq_65
+2024-03-06 00:00:01,> TYPE: Gingerbread cakes,[textbox]  Search -> TYPE: Gingerbread cakes,seq_66
+2024-03-06 00:00:02,> CLICK,[link]  gingerbread cakes -> CLICK,seq_66
+2024-03-06 00:00:03,> CLICK,[button]  Recipes -> CLICK,seq_66
+2024-03-06 00:00:04,> CLICK,[img]   -> CLICK,seq_66
+2024-03-06 00:00:05,> CLICK,[button]  Add 3 items to cart -> CLICK,seq_66
+2024-03-07 00:00:01,> CLICK,[textbox]  Find -> CLICK,seq_67
+2024-03-07 00:00:02,> TYPE: Burgers,[textbox]  Find -> TYPE: Burgers,seq_67
+2024-03-07 00:00:03,> CLICK,[span]  Burgers -> CLICK,seq_67
+2024-03-07 00:00:04,> CLICK,[textbox]  Near -> CLICK,seq_67
+2024-03-07 00:00:05,> TYPE: 44012,[textbox]  Near -> TYPE: 44012,seq_67
+2024-03-07 00:00:06,> CLICK,[button]  Search -> CLICK,seq_67
+2024-03-07 00:00:07,> CLICK,[button]  Recommended -> CLICK,seq_67
+2024-03-07 00:00:08,> CLICK,[span]  Highest Rated -> CLICK,seq_67
+2024-03-08 00:00:01,> HOVER,[link]  MMA . -> HOVER,seq_68
+2024-03-08 00:00:02,> CLICK,[link]  UFC Schedule . -> CLICK,seq_68
+2024-03-09 00:00:01,> HOVER,[link]  NBA . -> HOVER,seq_69
+2024-03-09 00:00:02,> CLICK,[div]  Phoenix -> CLICK,seq_69
+2024-03-09 00:00:03,> CLICK,[link]  Injuries -> CLICK,seq_69
+2024-03-10 00:00:01,> CLICK,[link]  MLB . -> CLICK,seq_70
+2024-03-10 00:00:02,> CLICK,[link]  Scores/Schedules -> CLICK,seq_70
+2024-03-10 00:00:03,> CLICK,[link]  Next day -> CLICK,seq_70
+2024-03-10 00:00:04,> CLICK,[link]  Next day -> CLICK,seq_70
+2024-03-11 00:00:01,> HOVER,[link]  NBA . -> HOVER,seq_71
+2024-03-11 00:00:02,> CLICK,[link]  Odds . -> CLICK,seq_71
+2024-03-11 00:00:03,> CLICK,[button]  Futures -> CLICK,seq_71
+2024-03-12 00:00:01,> CLICK,[button]  Menu -> CLICK,seq_72
+2024-03-12 00:00:02,> CLICK,[button]  Products -> CLICK,seq_72
+2024-03-12 00:00:03,> CLICK,[button]  Beds & mattresses -> CLICK,seq_72
+2024-03-12 00:00:04,> CLICK,[link]  Mattresses -> CLICK,seq_72
+2024-03-12 00:00:05,> CLICK,[img]  Foam and memory foam mattresses -> CLICK,seq_72
+2024-03-12 00:00:06,> CLICK,[button]  Show sorting options modal -> CLICK,seq_72
+2024-03-12 00:00:07,> CLICK,[span]  Price: low to high -> CLICK,seq_72
+2024-03-12 00:00:08,> CLICK,[button]  Show filter modal size -> CLICK,seq_72
+2024-03-12 00:00:09,> CLICK,[span]   -> CLICK,seq_72
+2024-03-12 00:00:10,> CLICK,[img]   -> CLICK,seq_72
+2024-03-13 00:00:01,> TYPE: mirror,[combobox]  Search by product -> TYPE: mirror,seq_73
+2024-03-13 00:00:02,> CLICK,[button]  Search -> CLICK,seq_73
+2024-03-13 00:00:03,> CLICK,[span]  Columbus -> CLICK,seq_73
+2024-03-13 00:00:04,> TYPE: atlanta georgia,"[searchbox]  Search by ZIP code or city, state -> TYPE: atlanta georgia",seq_73
+2024-03-13 00:00:05,> CLICK,[button]  Submit -> CLICK,seq_73
+2024-03-13 00:00:06,> CLICK,[span]  Select store -> CLICK,seq_73
+2024-03-13 00:00:07,> CLICK,[button]  Show more filters modal -> CLICK,seq_73
+2024-03-13 00:00:08,> CLICK,[button]  Sort Best match -> CLICK,seq_73
+2024-03-13 00:00:09,> CLICK,[radio]  Price: low to high -> CLICK,seq_73
+2024-03-13 00:00:10,> CLICK,[button]  Sort -> CLICK,seq_73
+2024-03-13 00:00:11,> CLICK,[button]  Shape -> CLICK,seq_73
+2024-03-13 00:00:12,> CLICK,[span]   -> CLICK,seq_73
+2024-03-13 00:00:13,> CLICK,[button]  Shape -> CLICK,seq_73
+2024-03-13 00:00:14,> CLICK,[span]   -> CLICK,seq_73
+2024-03-13 00:00:15,> CLICK,[button]  Price -> CLICK,seq_73
+2024-03-13 00:00:16,> CLICK,[span]   -> CLICK,seq_73
+2024-03-13 00:00:17,> CLICK,[button]  Close -> CLICK,seq_73
+2024-03-14 00:00:01,> HOVER,[menuitem]  Women -> HOVER,seq_74
+2024-03-14 00:00:02,> CLICK,[menuitem]  Golf -> CLICK,seq_74
+2024-03-14 00:00:03,> CLICK,[div]  Product Category -> CLICK,seq_74
+2024-03-14 00:00:04,> CLICK,[link]  Clothing -> CLICK,seq_74
+2024-03-14 00:00:05,> CLICK,[div]  Product Type -> CLICK,seq_74
+2024-03-14 00:00:06,> CLICK,[link]  Polos -> CLICK,seq_74
+2024-03-14 00:00:07,> CLICK,[div]  Size -> CLICK,seq_74
+2024-03-14 00:00:08,> CLICK,[link]  M -> CLICK,seq_74
+2024-03-14 00:00:09,> CLICK,[span]  Now Trending -> CLICK,seq_74
+2024-03-14 00:00:10,> CLICK,[li]  Price (Low - High) -> CLICK,seq_74
+2024-03-14 00:00:11,> CLICK,[button]  Add to Wish List -> CLICK,seq_74
+2024-03-15 00:00:01,> CLICK,[link]  What to Watch on Amazon Prime -> CLICK,seq_75
+2024-03-15 00:00:02,> CLICK,[button]  Filter -> CLICK,seq_75
+2024-03-15 00:00:03,> CLICK,[button]  Highest Rated -> CLICK,seq_75
+2024-03-15 00:00:04,> CLICK,[button]  View Results -> CLICK,seq_75
+2024-03-15 00:00:05,> CLICK,[span]  Watchlist -> CLICK,seq_75
+2024-03-15 00:00:06,> CLICK,[span]  Watchlist -> CLICK,seq_75
+2024-03-15 00:00:07,> CLICK,[span]  Watchlist -> CLICK,seq_75
+2024-03-16 00:00:01,> TYPE: Titanic,[textbox]  Search TV Shows and Movies... -> TYPE: Titanic,seq_76
+2024-03-16 00:00:02,> CLICK,[div]  Titanic -> CLICK,seq_76
+2024-03-16 00:00:03,> CLICK,[link]  Cast & Crew -> CLICK,seq_76
+2024-03-16 00:00:04,> CLICK,[span]  Watchlist -> CLICK,seq_76
+2024-03-17 00:00:01,> CLICK,[button]  Locations -> CLICK,seq_77
+2024-03-17 00:00:02,> CLICK,[link]  United States Car Rental Locations -> CLICK,seq_77
+2024-03-17 00:00:03,> TYPE: 02199,[searchbox]  Location (required) * Required Field -> TYPE: 02199,seq_77
+2024-03-17 00:00:04,> CLICK,[span]  02199 -> CLICK,seq_77
+2024-03-17 00:00:05,> CLICK,[button]  Continue -> CLICK,seq_77
+2024-03-17 00:00:06,> CLICK,[button]  All Location Details -> CLICK,seq_77
+2024-03-17 00:00:07,> CLICK,[button]  Selected Pick-Up Date 03/23/2023 -> CLICK,seq_77
+2024-03-17 00:00:08,> CLICK,[button]  03/27/2023 -> CLICK,seq_77
+2024-03-17 00:00:09,> SELECT: 11:00 AM,[combobox]  Pick-Up Time Selector -> SELECT: 11:00 AM,seq_77
+2024-03-17 00:00:10,> CLICK,[button]  Date -> CLICK,seq_77
+2024-03-17 00:00:11,> CLICK,[button]  03/29/2023 -> CLICK,seq_77
+2024-03-17 00:00:12,> SELECT: 1:00 PM,[combobox]  Return Time Selector -> SELECT: 1:00 PM,seq_77
+2024-03-17 00:00:13,> CLICK,[button]  Browse Vehicles -> CLICK,seq_77
+2024-03-17 00:00:14,> CLICK,[checkbox]  SUVs -> CLICK,seq_77
+2024-03-17 00:00:15,> CLICK,[checkbox]  2+ -> CLICK,seq_77
+2024-03-17 00:00:16,> CLICK,[button]  Select Nissan Kicks Vehicle -> CLICK,seq_77
+2024-03-17 00:00:17,> CLICK,[button]  Add -> CLICK,seq_77
+2024-03-17 00:00:18,> CLICK,[button]  Continue to Review -> CLICK,seq_77
+2024-03-18 00:00:01,> TYPE: India,[textbox]  Where to? -> TYPE: India,seq_78
+2024-03-18 00:00:02,> CLICK,[button]  India Asia -> CLICK,seq_78
+2024-03-18 00:00:03,> CLICK,[button]  Next -> CLICK,seq_78
+2024-03-18 00:00:04,> CLICK,[path]   -> CLICK,seq_78
+2024-03-18 00:00:05,> CLICK,[gridcell]  Thu Jun 01 2023 -> CLICK,seq_78
+2024-03-18 00:00:06,> CLICK,[gridcell]  Fri Jun 30 2023 -> CLICK,seq_78
+2024-03-18 00:00:07,> CLICK,[button]  Apply -> CLICK,seq_78
+2024-03-18 00:00:08,> CLICK,[circle]   -> CLICK,seq_78
+2024-03-18 00:00:09,> CLICK,[button]   -> CLICK,seq_78
+2024-03-18 00:00:10,> CLICK,[div]  Sightseeing Tours -> CLICK,seq_78
+2024-03-18 00:00:11,> CLICK,[label]  Private Tour -> CLICK,seq_78
+2024-03-18 00:00:12,> CLICK,[span]  Featured -> CLICK,seq_78
+2024-03-18 00:00:13,> CLICK,[span]  Duration (Long to Short) -> CLICK,seq_78
+2024-03-19 00:00:01,> CLICK,[link]  Deals -> CLICK,seq_79
+2024-03-19 00:00:02,> CLICK,[link]  Home Essentials Under $20 -> CLICK,seq_79
+2024-03-19 00:00:03,> CLICK,"[button]  Save to favorites, KUDDARNA, Chair pad, outdoor -> CLICK",seq_79
+2024-03-19 00:00:04,> CLICK,"[button]  Save to favorites, GULLBERGSÖ, Cushion cover, in/o... -> CLICK",seq_79
+2024-03-19 00:00:05,> CLICK,"[button]  Save to favorites, FEJAN, Chair, outdoor -> CLICK",seq_79
+2024-03-20 00:00:01,> CLICK,[button]  Menu -> CLICK,seq_80
+2024-03-20 00:00:02,> CLICK,[link]  Customer Service -> CLICK,seq_80
+2024-03-20 00:00:03,> CLICK,[div]  Need an extra part? -> CLICK,seq_80
+2024-03-20 00:00:04,> CLICK,[link]  Read more -> CLICK,seq_80
+2024-03-20 00:00:05,> CLICK,[span]  Order spare parts -> CLICK,seq_80
+2024-03-20 00:00:06,> TYPE: 105307,[input]   -> TYPE: 105307,seq_80
+2024-03-20 00:00:07,> CLICK,[button]  105307 -> CLICK,seq_80
+2024-03-20 00:00:08,> SELECT: 2,[combobox]  Change quantity -> SELECT: 2,seq_80
+2024-03-20 00:00:09,> CLICK,[span]  Add to cart -> CLICK,seq_80
+2024-03-21 00:00:01,> CLICK,[link]  Marketplace -> CLICK,seq_81
+2024-03-21 00:00:02,> CLICK,[link]  Shop by Color -> CLICK,seq_81
+2024-03-21 00:00:03,> CLICK,[link]  Shop red -> CLICK,seq_81
+2024-03-21 00:00:04,> CLICK,[button]  Show filter modal Category -> CLICK,seq_81
+2024-03-21 00:00:05,> CLICK,[span]   -> CLICK,seq_81
+2024-03-22 00:00:01,> CLICK,[link]  Deals -> CLICK,seq_82
+2024-03-22 00:00:02,> CLICK,[link]  Limited Time Offers -> CLICK,seq_82
+2024-03-22 00:00:03,> CLICK,[button]  Show filter modal Category -> CLICK,seq_82
+2024-03-22 00:00:04,> CLICK,[button]  Furniture 356 -> CLICK,seq_82
+2024-03-22 00:00:05,> CLICK,[button]  + 11 more -> CLICK,seq_82
+2024-03-22 00:00:06,> CLICK,[button]  Furniture sets 138 -> CLICK,seq_82
+2024-03-22 00:00:07,> CLICK,[button]  Outdoor dining sets 46 -> CLICK,seq_82
+2024-03-22 00:00:08,> CLICK,"[button]  Add to bag, TÄRNÖ, Table+2 chairs, outdoor -> CLICK",seq_82
+2024-03-22 00:00:09,> CLICK,"[link]  Shopping bag, 1 items -> CLICK",seq_82
+2024-03-22 00:00:10,> CLICK,[span]  Continue to checkout -> CLICK,seq_82
+2024-03-22 00:00:11,> CLICK,[span]  Guest checkout -> CLICK,seq_82
+2024-03-22 00:00:12,> CLICK,[span]  Select a store -> CLICK,seq_82
+2024-03-22 00:00:13,> CLICK,[span]  IKEA West Chester -> CLICK,seq_82
+2024-03-22 00:00:14,> CLICK,[button]  Close -> CLICK,seq_82
+2024-03-23 00:00:01,> HOVER,[link]  Music -> HOVER,seq_83
+2024-03-23 00:00:02,> HOVER,[a]  Genres -> HOVER,seq_83
+2024-03-23 00:00:03,> CLICK,[link]  Classic Rock -> CLICK,seq_83
+2024-03-24 00:00:01,> CLICK,[button]  Change Location -> CLICK,seq_84
+2024-03-24 00:00:02,> TYPE: Chicago,[searchbox]  Search by city... -> TYPE: Chicago,seq_84
+2024-03-24 00:00:03,> CLICK,"[option]  Chicago, IL -> CLICK",seq_84
+2024-03-24 00:00:04,> CLICK,[button]  See next Categories -> CLICK,seq_84
+2024-03-24 00:00:05,> CLICK,[img]  Comedy -> CLICK,seq_84
+2024-03-24 00:00:06,> CLICK,[span]  View more -> CLICK,seq_84
+2024-03-25 00:00:01,> CLICK,[link]  Flight status -> CLICK,seq_85
+2024-03-25 00:00:02,> TYPE: London,"[textbox]  From , required. -> TYPE: London",seq_85
+2024-03-25 00:00:03,> CLICK,"[a]  LON - London, United Kingdom -> CLICK",seq_85
+2024-03-25 00:00:04,> TYPE: New York,"[textbox]  To , required. -> TYPE: New York",seq_85
+2024-03-25 00:00:05,> CLICK,"[a]  NYC - New York, NY -> CLICK",seq_85
+2024-03-25 00:00:06,"> SELECT: Friday, April 7","[combobox]  Date -> SELECT: Friday, April 7",seq_85
+2024-03-25 00:00:07,> CLICK,[button]  Search -> CLICK,seq_85
+2024-03-25 00:00:08,> CLICK,"[link]  Check status » for flight, 6930 of American Airlin... -> CLICK",seq_85
+2024-03-26 00:00:01,> CLICK,"[link]  Hotel , Opens another site in a new window that ma... -> CLICK",seq_86
+2024-03-26 00:00:02,> TYPE: New York City,[searchbox]  Type your destination -> TYPE: New York City,seq_86
+2024-03-26 00:00:03,> CLICK,"[option]  New York (New York City) New York State, United St... -> CLICK",seq_86
+2024-03-26 00:00:04,> CLICK,[checkbox]  7 April 2023 -> CLICK,seq_86
+2024-03-26 00:00:05,> CLICK,[checkbox]  8 April 2023 -> CLICK,seq_86
+2024-03-26 00:00:06,> CLICK,[button]  Search -> CLICK,seq_86
+2024-03-26 00:00:07,> CLICK,[menuitem]  Price (lowest first) -> CLICK,seq_86
+2024-03-26 00:00:08,> CLICK,[link]  Millennium Hilton New York One UN Plaza -> CLICK,seq_86
+2024-03-27 00:00:01,> CLICK,[button]  hotels -> CLICK,seq_87
+2024-03-27 00:00:02,> TYPE: jakarta,[div]  Destination or property -> TYPE: jakarta,seq_87
+2024-03-27 00:00:03,> TYPE: jakarta,[hp-input-button]  Destination or property -> TYPE: jakarta,seq_87
+2024-03-27 00:00:04,> CLICK,"[div]  Jakarta, Special Capital Region of Jakarta -> CLICK",seq_87
+2024-03-27 00:00:05,> CLICK,[div]  Choose date -> CLICK,seq_87
+2024-03-27 00:00:06,> CLICK,[div]  Jun -> CLICK,seq_87
+2024-03-27 00:00:07,> CLICK,[generic]  1 -> CLICK,seq_87
+2024-03-27 00:00:08,> CLICK,[generic]  4 -> CLICK,seq_87
+2024-03-27 00:00:09,> CLICK,[button]  Search -> CLICK,seq_87
+2024-03-27 00:00:10,> CLICK,"[button]  Yes, I agree -> CLICK",seq_87
+2024-03-27 00:00:11,> CLICK,[span]  Lowest price -> CLICK,seq_87
+2024-03-27 00:00:12,> CLICK,[button]  Choose room -> CLICK,seq_87
+2024-03-27 00:00:13,> CLICK,[button]  Book now -> CLICK,seq_87
+2024-03-27 00:00:14,> TYPE: Joe,[textbox]  First name -> TYPE: Joe,seq_87
+2024-03-27 00:00:15,> TYPE: Bloggs,[textbox]  Surname -> TYPE: Bloggs,seq_87
+2024-03-27 00:00:16,> TYPE: buckeye.foobar@gmail.com,[textbox]  Email address -> TYPE: buckeye.foobar@gmail.com,seq_87
+2024-03-27 00:00:17,> TYPE: buckeye.foobar@gmail.com,[textbox]  Confirm email address -> TYPE: buckeye.foobar@gmail.com,seq_87
+2024-03-27 00:00:18,> TYPE: 1111111111111111,[input]   -> TYPE: 1111111111111111,seq_87
+2024-03-27 00:00:19,> TYPE: the home of joe bloggs,[textbox]  Address 1 -> TYPE: the home of joe bloggs,seq_87
+2024-03-27 00:00:20,> TYPE: new york,[textbox]  City -> TYPE: new york,seq_87
+2024-03-27 00:00:21,> TYPE: 10001,[textbox]  Postcode/ZIP code -> TYPE: 10001,seq_87
+2024-03-27 00:00:22,> TYPE: new york,[combobox]  State -> TYPE: new york,seq_87
+2024-03-27 00:00:23,> TYPE: 1234,[textbox]  Card number -> TYPE: 1234,seq_87
+2024-03-27 00:00:24,> SELECT: MasterCard,[combobox]  Card type -> SELECT: MasterCard,seq_87
+2024-03-27 00:00:25,> SELECT: 01,[combobox]  Month -> SELECT: 01,seq_87
+2024-03-27 00:00:26,> SELECT: 2023,[combobox]  Year -> SELECT: 2023,seq_87
+2024-03-27 00:00:27,> TYPE: 123,[textbox]  CVV -> TYPE: 123,seq_87
+2024-03-27 00:00:28,> TYPE: joe bloggs,[textbox]  Cardholder's name -> TYPE: joe bloggs,seq_87
+2024-03-27 00:00:29,> CLICK,[svg]   -> CLICK,seq_87
+2024-03-28 00:00:01,> CLICK,[button]  DEALS -> CLICK,seq_88
+2024-03-28 00:00:02,> CLICK,[link]  VACATIONS & RAIL TOURS Train vacation packages thr... -> CLICK,seq_88
+2024-03-28 00:00:03,> CLICK,[img]   -> CLICK,seq_88
+2024-03-28 00:00:04,> CLICK,[link]  Close -> CLICK,seq_88
+2024-03-28 00:00:05,> CLICK,[button]  Itinerary -> CLICK,seq_88
+2024-03-28 00:00:06,> CLICK,[button]  Details -> CLICK,seq_88
+2024-03-29 00:00:01,> TYPE: new york,[textbox]  From -> TYPE: new york,seq_89
+2024-03-29 00:00:02,> CLICK,"[option]  New York, NY - Moynihan Train Hall at Penn Sta. (N... -> CLICK",seq_89
+2024-03-29 00:00:03,> TYPE: washington,[textbox]  To -> TYPE: washington,seq_89
+2024-03-29 00:00:04,> CLICK,"[option]  Washington, DC - Union Station (WAS) -> CLICK",seq_89
+2024-03-29 00:00:05,> CLICK,[div]  Depart Date -> CLICK,seq_89
+2024-03-29 00:00:06,> CLICK,[button]  Next month -> CLICK,seq_89
+2024-03-29 00:00:07,> CLICK,"[gridcell]  Thursday, June 1, 2023 -> CLICK",seq_89
+2024-03-29 00:00:08,> CLICK,[button]  Done -> CLICK,seq_89
+2024-03-29 00:00:09,> CLICK,[button]  FIND TRAINS -> CLICK,seq_89
+2024-03-29 00:00:10,> CLICK,[span]  Sort/Filter -> CLICK,seq_89
+2024-03-29 00:00:11,> CLICK,[checkbox]  filter trains by Time of Day:6a-12p -> CLICK,seq_89
+2024-03-29 00:00:12,> CLICK,[mat-pseudo-checkbox]   -> CLICK,seq_89
+2024-03-29 00:00:13,> CLICK,[button]  Close -> CLICK,seq_89
+2024-03-29 00:00:14,> CLICK,[button]  First from $722 -> CLICK,seq_89
+2024-03-29 00:00:15,> CLICK,[button]  ADD TO CART -> CLICK,seq_89
+2024-03-30 00:00:01,> CLICK,[button]  Find a Park by State -> CLICK,seq_90
+2024-03-30 00:00:02,> CLICK,[link]  Alaska -> CLICK,seq_90
+2024-03-30 00:00:03,> CLICK,[link]  1 National Heritage Area » -> CLICK,seq_90
+2024-03-30 00:00:04,> CLICK,[link]  Kenai Mountains-Turnagain Arm National Heritage Ar... -> CLICK,seq_90
+2024-03-31 00:00:01,> CLICK,[link]  FIND A PARK -> CLICK,seq_91
+2024-03-31 00:00:02,> TYPE: Canyon de Chelly,[combobox]  Park Name -> TYPE: Canyon de Chelly,seq_91
+2024-03-31 00:00:03,> CLICK,[option]  Canyon de Chelly National Monument -> CLICK,seq_91
+2024-03-31 00:00:04,> CLICK,[link]   CALENDAR  -> CLICK,seq_91
+2024-04-01 00:00:01,> CLICK,[link]  FIND A PARK -> CLICK,seq_92
+2024-04-01 00:00:02,> CLICK,[link]  Search by Activity or Topic -> CLICK,seq_92
+2024-04-01 00:00:03,> CLICK,[button]  Activity -> CLICK,seq_92
+2024-04-01 00:00:04,> CLICK,[input]   -> CLICK,seq_92
+2024-04-01 00:00:05,> CLICK,[button]  Search -> CLICK,seq_92
+2024-04-02 00:00:01,> CLICK,[link]  shopping. -> CLICK,seq_93
+2024-04-02 00:00:02,> CLICK,[li]  Neighborhood -> CLICK,seq_93
+2024-04-02 00:00:03,> CLICK,[link]  Chelsea -> CLICK,seq_93
+2024-04-02 00:00:04,> CLICK,[link]  Bookstore (3) -> CLICK,seq_93
+2024-04-03 00:00:01,> CLICK,[link]  restaurants. -> CLICK,seq_94
+2024-04-03 00:00:02,> CLICK,[li]  Cuisine -> CLICK,seq_94
+2024-04-03 00:00:03,> CLICK,[link]  African -> CLICK,seq_94
+2024-04-03 00:00:04,> CLICK,[link]  East Village (2) -> CLICK,seq_94
+2024-04-03 00:00:05,> CLICK,[link]  $16 To $30 (2) -> CLICK,seq_94
+2024-04-04 00:00:01,> CLICK,[link]  hotels. -> CLICK,seq_95
+2024-04-04 00:00:02,> CLICK,[textbox]   Check In  -> CLICK,seq_95
+2024-04-04 00:00:03,> CLICK,[link]  24 -> CLICK,seq_95
+2024-04-04 00:00:04,> CLICK,[textbox]   Sun Mar 26  -> CLICK,seq_95
+2024-04-04 00:00:05,> CLICK,[link]  27 -> CLICK,seq_95
+2024-04-04 00:00:06,> SELECT: 1 Room,[combobox]    -> SELECT: 1 Room,seq_95
+2024-04-04 00:00:07,> SELECT: 2 Adults,[combobox]    -> SELECT: 2 Adults,seq_95
+2024-04-04 00:00:08,> SELECT: 1 Child,[combobox]    -> SELECT: 1 Child,seq_95
+2024-04-04 00:00:09,> SELECT: 0,[select]  Age -> SELECT: 0,seq_95
+2024-04-04 00:00:10,> CLICK,[link]  Search Hotels -> CLICK,seq_95
+2024-04-04 00:00:11,> CLICK,[radio]   $100 to $200 -> CLICK,seq_95
+2024-04-04 00:00:12,> CLICK,[radio]   New York (and vicinity) -> CLICK,seq_95
+2024-04-04 00:00:13,> CLICK,[radio]   Central Park -> CLICK,seq_95
+2024-04-05 00:00:01,> CLICK,[link]  Search for packages -> CLICK,seq_96
+2024-04-05 00:00:02,> CLICK,[link]  Hawaii Vacations -> CLICK,seq_96
+2024-04-05 00:00:03,> CLICK,[button]  Search packages -> CLICK,seq_96
+2024-04-06 00:00:01,> CLICK,[link]  Search for hotels -> CLICK,seq_97
+2024-04-06 00:00:02,> TYPE: kashi vishwanath temple,"[textbox]  Enter a city, hotel, airport, address or landmark -> TYPE: kashi vishwanath temple",seq_97
+2024-04-06 00:00:03,> CLICK,"[span]  Kashi Vishwanath Temple, Varanasi, Uttar Pradesh, ... -> CLICK",seq_97
+2024-04-06 00:00:04,> CLICK,[path]   -> CLICK,seq_97
+2024-04-06 00:00:05,> CLICK,[div]  6 -> CLICK,seq_97
+2024-04-06 00:00:06,> CLICK,[div]  10 -> CLICK,seq_97
+2024-04-06 00:00:07,> CLICK,[button]  Increment -> CLICK,seq_97
+2024-04-06 00:00:08,> CLICK,[button]  Increment -> CLICK,seq_97
+2024-04-06 00:00:09,> CLICK,[button]  Increment -> CLICK,seq_97
+2024-04-06 00:00:10,> TYPE: 7,[span]  0 -> TYPE: 7,seq_97
+2024-04-06 00:00:11,> CLICK,[tab]  7 -> CLICK,seq_97
+2024-04-06 00:00:12,> CLICK,[path]   -> CLICK,seq_97
+2024-04-06 00:00:13,> CLICK,[div]  8+ -> CLICK,seq_97
+2024-04-06 00:00:14,> CLICK,[div]  3 -> CLICK,seq_97
+2024-04-06 00:00:15,> CLICK,[checkbox]  Free internet -> CLICK,seq_97
+2024-04-06 00:00:16,> CLICK,[button]  Style -> CLICK,seq_97
+2024-04-06 00:00:17,> CLICK,[checkbox]  Family -> CLICK,seq_97
+2024-04-06 00:00:18,> CLICK,[button]  Amenities -> CLICK,seq_97
+2024-04-06 00:00:19,> CLICK,[checkbox]  Air-conditioned -> CLICK,seq_97
+2024-04-06 00:00:20,> CLICK,[div]  Distance -> CLICK,seq_97
+2024-04-06 00:00:21,> CLICK,[tab]  Price (low to high) -> CLICK,seq_97
+2024-04-07 00:00:01,> CLICK,[link]  Company -> CLICK,seq_98
+2024-04-07 00:00:02,> CLICK,[link]  Career Opportunities -> CLICK,seq_98
+2024-04-07 00:00:03,> SELECT: Product Management,[select]  All teams -> SELECT: Product Management,seq_98
+2024-04-08 00:00:01,> CLICK,[textbox]  search -> CLICK,seq_99
+2024-04-08 00:00:02,> TYPE: Dota 2,[textbox]  search -> TYPE: Dota 2,seq_99
+2024-04-08 00:00:03,> CLICK,[link]  Dota 2 Free -> CLICK,seq_99
+2024-04-08 00:00:04,> HOVER,[link]  Add all DLC to Cart -> HOVER,seq_99
+2024-04-09 00:00:01,> TYPE: New York,[textbox]  From -> TYPE: New York,seq_100
+2024-04-09 00:00:02,> CLICK,[option]  New York City area (NYC) -> CLICK,seq_100
+2024-04-09 00:00:03,> TYPE: Aruba,[textbox]  To -> TYPE: Aruba,seq_100
+2024-04-09 00:00:04,> CLICK,[option]  Aruba (AUA) -> CLICK,seq_100
+2024-04-09 00:00:05,> CLICK,[span]  1 -> CLICK,seq_100
+2024-04-09 00:00:06,> CLICK,"[button]  return Friday, May 5, 2023 -> CLICK",seq_100
+2024-04-09 00:00:07,> CLICK,[span]   -> CLICK,seq_100
+2024-04-09 00:00:08,> CLICK,[span]  Search flights -> CLICK,seq_100
+2024-04-09 00:00:09,> CLICK,[link]  Sort & Filter -> CLICK,seq_100
+2024-04-09 00:00:10,> CLICK,[button]  Default   -> CLICK,seq_100
+2024-04-09 00:00:11,> CLICK,[span]  Price (low to high) -> CLICK,seq_100
+2024-04-09 00:00:12,> CLICK,[button]  Apply -> CLICK,seq_100
