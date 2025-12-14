@@ -1,5 +1,7 @@
 # Agent Trajectory Event Sequence Visualization
 
+## 可视化csv文件生成
+
 数据来源：mind2web，训练集共计1009个task，从中提取出agent trajectory
 
 每个task完成的action格式如下：
@@ -171,7 +173,15 @@ raw_dump
 
 每个action_reprs对应一个actions，正确的element标记为pos_candidates，错误的标记为neg_candidates。正样本数量较少个位数，负样本为网页中的其余元素几百个。
 
-·
+## 可视化解析
+
+![1765708433961](assets/1765708433961.png)
+
+**展示阈值：**
+
+- 最小支持度阈值: 控制“被展示的模式”需要在多少条序列里出现才算“频繁”。
+- 计算方式: 最小支持度 = 系数 × 总序列数。比如总序列数为 100，0.05 表示至少在 5 条序列里出现的模式才会被展示。
+- 展示策略: 阈值越低，展示的模式越多、结构更细；阈值越高，筛选更严格、只保留主干路径。
 
 
 
