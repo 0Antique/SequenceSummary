@@ -49,28 +49,37 @@ class EventStore:
         # For each event in the csv construct an event object
         for row in dataFrame.iterrows():
             data = row[1]
-            try:
-                timeStamp = datetime.strptime(data.iloc[timeStampColumnIdx], timeFormat)
-            except ValueError:
-                # Try ISO format first
+            timeStampValue = data.iloc[timeStampColumnIdx]
+            
+            # Check if the timestamp is numeric (sequence order like step_id)
+            if isinstance(timeStampValue, (int, float)):
+                # Use the numeric value as-is (for sequence order)
+                # Convert to datetime by treating it as days since epoch
+                timeStamp = datetime.fromtimestamp(float(timeStampValue))
+            else:
+                # Try to parse as a date string
                 try:
-                    timeStamp = datetime.fromisoformat(data.iloc[timeStampColumnIdx])
+                    # Convert to string to handle numeric values
+                    timeStampValue = str(timeStampValue)
+                    timeStamp = datetime.strptime(timeStampValue, timeFormat)
                 except ValueError:
-                    # If that fails too, try some common formats
-                    for fmt in ["%m/%d/%Y", "%d/%m/%Y", "%Y-%m-%d", "%Y/%m/%d"]:
-                        try:
-                            timeStamp = datetime.strptime(
-                                data.iloc[timeStampColumnIdx], fmt
+                    # Try ISO format first
+                    try:
+                        timeStamp = datetime.fromisoformat(timeStampValue)
+                    except ValueError:
+                        # If that fails too, try some common formats
+                        for fmt in ["%m/%d/%Y", "%d/%m/%Y", "%Y-%m-%d", "%Y/%m/%d"]:
+                            try:
+                                timeStamp = datetime.strptime(timeStampValue, fmt)
+                                break
+                            except ValueError:
+                                continue
+                        else:
+                            # If all attempts fail, raise an error with helpful message
+                            raise ValueError(
+                                f"Unable to parse date: {timeStampValue}. "
+                                f"Please provide a valid format string using --format parameter."
                             )
-                            break
-                        except ValueError:
-                            continue
-                    else:
-                        # If all attempts fail, raise an error with helpful message
-                        raise ValueError(
-                            f"Unable to parse date: {data.iloc[timeStampColumnIdx]}. "
-                            f"Please provide a valid format string using --format parameter."
-                        )
             # for all attributes other tahn time, add them to attributes dict
             evt = PointEvent(timeStamp)
             for i, _ in enumerate(data):

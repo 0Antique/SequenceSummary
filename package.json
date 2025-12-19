@@ -1,0 +1,22 @@
+{
+  "name": "sequencesummary",
+  "version": "1.0.0",
+  "description": "数据来源：mind2web，训练集共计1009个task，从中提取出agent trajectory",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0Antique/SequenceSummary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0Antique/SequenceSummary/issues"
+  },
+  "homepage": "https://github.com/0Antique/SequenceSummary#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
+}

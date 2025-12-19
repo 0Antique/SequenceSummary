@@ -183,7 +183,9 @@ raw_dump
 - 计算方式: 最小支持度 = 系数 × 总序列数。比如总序列数为 100，0.05 表示至少在 5 条序列里出现的模式才会被展示。
 - 展示策略: 阈值越低，展示的模式越多、结构更细；阈值越高，筛选更严格、只保留主干路径。
 
-
+执行所有：`python RunAll.py --file Sample_Dataset2.csv --attr Event --grpattr Sequence --output "./output/"`
+通过提取后的event
+`python RunAll.py --file task1_5traj.csv --attr event --grpattr traj_id --output "./output/" --startidx 2`
 
 
 

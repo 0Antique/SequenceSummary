@@ -105,6 +105,7 @@ def main():
                 + f"{minSupParam:.2f}"
                 + ".json",
                 "w",
+                encoding="utf-8",
             ) as the_file:
                 the_file.write(x)
 
@@ -146,6 +147,7 @@ def main():
                 + f"{minSupParam:.2f}"
                 + ".json",
                 "w",
+                encoding="utf-8",
             ) as the_file2:
                 the_file2.write(y)
 
@@ -187,6 +189,7 @@ def main():
                 + f"{minSupParam:.2f}"
                 + ".json",
                 "w",
+                encoding="utf-8",
             ) as the_file3:
                 the_file3.write(z)
             ssmvanilla = ssmv(
