@@ -1,6 +1,6 @@
 """Implements the SentenTreeMiner according to SentenTree Algo."""
 
-import numpy as np
+import statistics
 from core.Graph import RawNode, Graph
 from core.Node import GraphNode
 from datamodel.Sequence import Sequence
@@ -111,7 +111,7 @@ class SentenTreeMiner:
             seq.after = exitNode
             lenArr = [len(x.events) for x in seq.sequences]
             exitNode.meanStep = sum(lenArr) / (len(lenArr) if lenArr else 1)
-            exitNode.medianStep = np.median(lenArr)
+            exitNode.medianStep = statistics.median(lenArr) if lenArr else 0
             # exitNode.parent.append(seq)
             seq.parent.append(exitNode)
             seq.graph.nodes.append(RawNode(node=exitNode, pos=-1))

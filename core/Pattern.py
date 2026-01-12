@@ -1,8 +1,9 @@
 """Implements the Pattern class."""
 
 import json
+import statistics
+from itertools import accumulate
 from itertools import count
-import numpy as np
 
 
 class Pattern:
@@ -45,8 +46,8 @@ class Pattern:
         lst = [y - x for x, y in zip(self.medianPos, self.medianPos[1:])]
         if len(lst) <= 1:
             return 100
-        lst = lst.sort()
-        return np.median(np.asarray(lst))
+        lst.sort()
+        return statistics.median(lst)
 
     def addKeyEvent(self, hashVal):
         """Add a new key event."""
@@ -115,8 +116,8 @@ class Pattern:
 
         medians, means = Pattern.getStats(self.keyEvts, self.sids, evtAttr)
 
-        means = np.cumsum(np.asarray(means))
-        medians = np.cumsum(np.asarray(medians))
+        means = list(accumulate(means))
+        medians = list(accumulate(medians))
 
         self.setMedianPositions(medians)
         self.setMeanPositions(means)
@@ -187,7 +188,7 @@ class Pattern:
         #    return (data[middle-1]+data[middle])/2.0
         # else:
         #    return data[middle]
-        return np.median(data)
+        return statistics.median(data) if data else 0
 
     @staticmethod
     def getMeanPositions(allPos):
@@ -233,8 +234,16 @@ class Pattern:
                 elif i == -1:
                     subVal = [val for val in reversed(pos) if val != -1][0]
                     numSteps[k][index + 1] += j - subVal
-        means = np.mean(numSteps, axis=0)
-        medians = np.median(numSteps, axis=0)
+        means = []
+        medians = []
+        for col_idx in range(len(keyEvts)):
+            col_vals = [row[col_idx] for row in numSteps]
+            if not col_vals:
+                means.append(0)
+                medians.append(0)
+                continue
+            means.append(sum(col_vals) / len(col_vals))
+            medians.append(statistics.median(col_vals))
         return medians, means
 
     @staticmethod

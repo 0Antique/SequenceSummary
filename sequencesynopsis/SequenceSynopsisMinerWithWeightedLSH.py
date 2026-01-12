@@ -6,16 +6,30 @@ from core.Cluster import Cluster
 from sequencesynopsis.RankingFunction import lcs, calcDist, calcAverage
 from core.QueueElements import QueueElements
 from core.Pattern import Pattern
-from datasketch import MinHash, MinHashLSH, WeightedMinHashGenerator
-from sklearn.feature_extraction.text import TfidfVectorizer
 from core.Graph import Graph, RawNode, Links
 import math
+
+_HAS_WEIGHTED_LSH = True
+try:
+    from datasketch import MinHashLSH, WeightedMinHashGenerator  # type: ignore
+    from sklearn.feature_extraction.text import TfidfVectorizer  # type: ignore
+except ModuleNotFoundError:  # pragma: no cover
+    _HAS_WEIGHTED_LSH = False
 
 
 class SequenceSynopsisMiner:
     """Based on some metric distance, groups sequences under same pattern."""
 
     def __init__(self, attrib, evtStore, alpha=0.1, lambdaVal=0.9):
+        self._fallback = None
+        if not _HAS_WEIGHTED_LSH:
+            from sequencesynopsis.SequenceSynopsisMiner import (
+                SequenceSynopsisMiner as _VanillaSequenceSynopsisMiner,
+            )
+
+            self._fallback = _VanillaSequenceSynopsisMiner(
+                attrib, evtStore, alpha=alpha, lambdaVal=lambdaVal
+            )
         self.attr = attrib
         self.eventStore = evtStore
         self.alpha = alpha
@@ -29,6 +43,11 @@ class SequenceSynopsisMiner:
         threshold: float value of threshold
         Returns a minHashArr and the LSH arr
         """
+        if not _HAS_WEIGHTED_LSH:
+            raise ModuleNotFoundError(
+                "Optional dependencies missing: install `datasketch` and `scikit-learn` "
+                "to enable the Weighted-LSH acceleration."
+            )
         vectorizer = TfidfVectorizer(
             token_pattern=r"\w+", norm="l1", sublinear_tf=True, use_idf=False
         )
@@ -56,6 +75,8 @@ class SequenceSynopsisMiner:
 
     def minDL(self, seqs):
         """Merges sequences based on minimum Description Length."""
+        if self._fallback is not None:
+            return self._fallback.minDL(seqs)
         # Initialization Phase
         thStart = 0.9
         thEnd = 0.2

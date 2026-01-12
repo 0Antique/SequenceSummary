@@ -3,7 +3,7 @@
 import json
 from itertools import count
 from itertools import accumulate
-import numpy as np
+import statistics
 from core.Pattern import Pattern
 
 
@@ -84,7 +84,7 @@ class Node:
             # WHY WE ARE ADDING 1 to mean and medianStep?
             self.meanStep = sumVal / (len(self.pos)) - 1
             # ((self.pos[mid-1]+self.pos[mid])/2.0)+1 if len(self.pos)%2==0 else self.pos[mid]+1
-            self.medianStep = np.median(self.pos)
+            self.medianStep = statistics.median(self.pos)
 
     def getValue(self):
         """Returns value of the node."""

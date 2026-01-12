@@ -1,6 +1,6 @@
 """Implements ranking methods for coreflow."""
 
-import numpy as np
+import statistics
 
 
 class RankingFunction:
@@ -88,7 +88,7 @@ class RankingFunction:
         for word in self.fdist:
             value = self.fdist[word]
 
-            meadianPos = np.median(self.fdistInd[word])
+            meadianPos = statistics.median(self.fdistInd[word])
 
             if maxCount < value <= self.maxSupport:
                 maxWord = str(word)

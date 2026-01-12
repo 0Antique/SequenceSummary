@@ -1,9 +1,77 @@
 """Defines various helper functions to create EventStore object from given source."""
 
 import os
-import pandas as pd
-import requests
+import csv
+from urllib.request import urlopen
+
+try:
+    import pandas as pd  # type: ignore
+except ModuleNotFoundError:  # pragma: no cover
+    pd = None
+
+try:
+    import requests  # type: ignore
+except ModuleNotFoundError:  # pragma: no cover
+    requests = None
 from datamodel.Event import IntervalEvent
+
+
+class _SimpleSeries:
+    def __init__(self, values):
+        self._values = values
+        self.iloc = self
+
+    def __getitem__(self, idx):
+        return self._values[idx]
+
+    def __len__(self):
+        return len(self._values)
+
+    def __iter__(self):
+        return iter(self._values)
+
+
+class _SimpleDataFrame:
+    def __init__(self, columns, rows):
+        self.columns = columns
+        self._rows = rows
+
+    def iterrows(self):
+        for idx, row in enumerate(self._rows):
+            yield idx, _SimpleSeries(row)
+
+
+def _coerce_cell(value: str):
+    value = value.strip()
+    if value == "" or value.lower() in {"nan", "none", "null"}:
+        return None
+    try:
+        return int(value)
+    except ValueError:
+        pass
+    try:
+        return float(value)
+    except ValueError:
+        return value
+
+
+def _read_csv_fallback(path: str, sep: str, header):
+    with open(path, "r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.reader(f, delimiter=sep)
+        rows = list(reader)
+
+    if not rows:
+        return _SimpleDataFrame([], [])
+
+    if not header:
+        columns = [c.strip() for c in rows[0]]
+        data_rows = rows[1:]
+    else:
+        columns = list(header)
+        data_rows = rows
+
+    coerced_rows = [[_coerce_cell(cell) for cell in row] for row in data_rows]
+    return _SimpleDataFrame(columns, coerced_rows)
 
 
 def getDataframe(src, local=False, sep="\t", header=None):
@@ -11,6 +79,24 @@ def getDataframe(src, local=False, sep="\t", header=None):
     Local is boolean, if local then source should be path to the file
     Otherwise it should be a URL to the the file
     """
+
+    if pd is None:
+        if not local:
+            if "dropbox" in src:
+                src = src.replace("dl=0", "dl=1")
+            if requests is not None:
+                req = requests.get(src)
+                url_content = req.content
+            else:
+                url_content = urlopen(src).read()
+            with open("data.txt", "wb") as csv_file:
+                csv_file.write(url_content)
+            try:
+                data_frame = _read_csv_fallback("data.txt", sep, header)
+            finally:
+                os.remove("data.txt")
+            return data_frame
+        return _read_csv_fallback(src, sep, header)
 
     if not local:
         # To force a dropbox link to download change the dl=0 to 1

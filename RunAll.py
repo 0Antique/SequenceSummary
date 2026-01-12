@@ -11,7 +11,10 @@ import argparse
 import csv
 import time
 from datetime import timedelta
-from memory_profiler import memory_usage
+try:
+    from memory_profiler import memory_usage  # type: ignore
+except ModuleNotFoundError:  # pragma: no cover
+    memory_usage = None
 from utils.args_parser import (
     get_common_parser,
     add_coreflow_args,
@@ -33,6 +36,18 @@ from coreflow.CoreFlowMiner import CoreFlowMiner
 from sententree.SentenTreeMiner import SentenTreeMiner
 from sequencesynopsis.SequenceSynopsisMinerWithWeightedLSH import SequenceSynopsisMiner
 from sequencesynopsis.SequenceSynopsisMiner import SequenceSynopsisMiner as ssmv
+
+
+def _run_with_memory_profile(func, func_args: list):
+    if memory_usage is None:
+        return "NA", func(*func_args)
+    mem, retval = memory_usage(
+        proc=[func, func_args],
+        include_children=True,
+        max_usage=True,
+        retval=True,
+    )
+    return mem, retval
 
 
 def main():
@@ -71,12 +86,7 @@ def main():
             )
 
             start = time.time()
-            mem, output = memory_usage(
-                proc=[cfm.runCoreFlowMiner, [seqList]],
-                include_children=True,
-                max_usage=True,
-                retval=True,
-            )
+            mem, output = _run_with_memory_profile(cfm.runCoreFlowMiner, [seqList])
             end = time.time()
             root = output[0]
             graph = output[1]
@@ -113,12 +123,7 @@ def main():
                 args.attr, minSup=minSupParam * len(seqList), maxSup=len(seqList)
             )
             start = time.time()
-            mem, graph = memory_usage(
-                proc=[stm.runSentenTreeMiner, [seqList]],
-                include_children=True,
-                max_usage=True,
-                retval=True,
-            )
+            mem, graph = _run_with_memory_profile(stm.runSentenTreeMiner, [seqList])
             end = time.time()
 
             writer.writerow(
@@ -155,12 +160,7 @@ def main():
                 args.attr, eventStore, alpha=minSupParam, lambdaVal=1 - minSupParam
             )
             start = time.time()
-            mem, output = memory_usage(
-                proc=[ssm.minDL, [seqList]],
-                include_children=True,
-                max_usage=True,
-                retval=True,
-            )
+            mem, output = _run_with_memory_profile(ssm.minDL, [seqList])
             end = time.time()
             writer.writerow(
                 [
@@ -196,12 +196,7 @@ def main():
                 args.attr, eventStore, alpha=minSupParam, lambdaVal=1 - minSupParam
             )
             start = time.time()
-            mem, output = memory_usage(
-                proc=[ssmvanilla.minDL, [seqList]],
-                include_children=True,
-                max_usage=True,
-                retval=True,
-            )
+            mem, output = _run_with_memory_profile(ssmvanilla.minDL, [seqList])
             end = time.time()
             writer.writerow(
                 [

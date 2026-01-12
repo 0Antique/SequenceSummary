@@ -26,6 +26,8 @@ visualization/app/public/assets/
 
 *checkpoints
 *.jar
+*.csv
+*.json
 *package-lock*
 # input files
 .gitignore.swp
